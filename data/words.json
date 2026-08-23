@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "allocate",
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "分配；拨出（资源或时间）",
+    "example": "The university allocated additional funds to the research project.",
+    "exampleZh": "大学为该研究项目拨出了额外资金。",
+    "tags": ["academic", "resource"]
+  },
+  {
+    "slug": "ambiguous",
+    "word": "ambiguous",
+    "phonetic": "/æmˈbɪɡjuəs/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "含糊不清的；有歧义的",
+    "example": "The wording of the survey question was ambiguous.",
+    "exampleZh": "这道调查题的措辞存在歧义。",
+    "tags": ["academic", "description"]
+  },
+  {
+    "slug": "coherent",
+    "word": "coherent",
+    "phonetic": "/kəʊˈhɪərənt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "连贯的；条理清楚的",
+    "example": "A good essay presents a coherent argument from beginning to end.",
+    "exampleZh": "一篇好文章会从头到尾呈现连贯的论点。",
+    "tags": ["writing", "academic"]
+  },
+  {
+    "slug": "compelling",
+    "word": "compelling",
+    "phonetic": "/kəmˈpelɪŋ/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "令人信服的；引人注目的",
+    "example": "The researchers provided compelling evidence for their conclusion.",
+    "exampleZh": "研究人员为其结论提供了令人信服的证据。",
+    "tags": ["argument", "academic"]
+  },
+  {
+    "slug": "comprehensive",
+    "word": "comprehensive",
+    "phonetic": "/ˌkɒmprɪˈhensɪv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "全面的；综合的",
+    "example": "The report offers a comprehensive review of climate policy.",
+    "exampleZh": "该报告对气候政策进行了全面回顾。",
+    "tags": ["reading", "academic"]
+  },
+  {
+    "slug": "consecutive",
+    "word": "consecutive",
+    "phonetic": "/kənˈsekjətɪv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "连续的；相继的",
+    "example": "Enrollment increased for three consecutive years.",
+    "exampleZh": "入学人数连续三年增长。",
+    "tags": ["data", "academic"]
+  },
+  {
+    "slug": "constitute",
+    "word": "constitute",
+    "phonetic": "/ˈkɒnstɪtjuːt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "构成；组成；被视为",
+    "example": "Online sales constitute a large share of the company's revenue.",
+    "exampleZh": "线上销售构成了公司收入的很大一部分。",
+    "tags": ["academic", "business"]
+  },
+  {
+    "slug": "controversial",
+    "word": "controversial",
+    "phonetic": "/ˌkɒntrəˈvɜːʃəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "有争议的",
+    "example": "The proposed policy remains highly controversial.",
+    "exampleZh": "这项拟议政策仍然极具争议。",
+    "tags": ["argument", "society"]
+  },
+  {
+    "slug": "deteriorate",
+    "word": "deteriorate",
+    "phonetic": "/dɪˈtɪəriəreɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "恶化；退化",
+    "example": "Air quality may deteriorate during periods of extreme heat.",
+    "exampleZh": "在极端高温期间，空气质量可能恶化。",
+    "tags": ["environment", "change"]
+  },
+  {
+    "slug": "diminish",
+    "word": "diminish",
+    "phonetic": "/dɪˈmɪnɪʃ/",
+    "partOfSpeech": "v.",
+    "meaningZh": "减少；削弱",
+    "example": "The benefits diminish when the treatment is stopped.",
+    "exampleZh": "停止治疗后，其益处会减弱。",
+    "tags": ["change", "academic"]
+  },
+  {
+    "slug": "discrepancy",
+    "word": "discrepancy",
+    "phonetic": "/dɪˈskrepənsi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "差异；不一致",
+    "example": "There was a discrepancy between the two sets of results.",
+    "exampleZh": "两组结果之间存在差异。",
+    "tags": ["data", "research"]
+  },
+  {
+    "slug": "empirical",
+    "word": "empirical",
+    "phonetic": "/ɪmˈpɪrɪkəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "以观察或实验为依据的；实证的",
+    "example": "The theory is supported by empirical evidence.",
+    "exampleZh": "该理论得到了实证证据的支持。",
+    "tags": ["research", "academic"]
+  },
+  {
+    "slug": "enhance",
+    "word": "enhance",
+    "phonetic": "/ɪnˈhɑːns/",
+    "partOfSpeech": "v.",
+    "meaningZh": "提高；增强；改善",
+    "example": "Regular feedback can enhance student performance.",
+    "exampleZh": "定期反馈可以提高学生的表现。",
+    "tags": ["education", "change"]
+  },
+  {
+    "slug": "exacerbate",
+    "word": "exacerbate",
+    "phonetic": "/ɪɡˈzæsəbeɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "使恶化；加剧",
+    "example": "A shortage of housing may exacerbate social inequality.",
+    "exampleZh": "住房短缺可能加剧社会不平等。",
+    "tags": ["society", "change"]
+  },
+  {
+    "slug": "feasible",
+    "word": "feasible",
+    "phonetic": "/ˈfiːzəbəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "可行的；行得通的",
+    "example": "The committee will determine whether the proposal is feasible.",
+    "exampleZh": "委员会将判断该提案是否可行。",
+    "tags": ["decision", "academic"]
+  },
+  {
+    "slug": "fluctuate",
+    "word": "fluctuate",
+    "phonetic": "/ˈflʌktʃueɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "波动；起伏不定",
+    "example": "Energy prices fluctuate in response to global demand.",
+    "exampleZh": "能源价格会随全球需求而波动。",
+    "tags": ["data", "economics"]
+  },
+  {
+    "slug": "fundamental",
+    "word": "fundamental",
+    "phonetic": "/ˌfʌndəˈmentəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "根本的；基础的；至关重要的",
+    "example": "Trust is fundamental to effective teamwork.",
+    "exampleZh": "信任是有效团队合作的基础。",
+    "tags": ["academic", "description"]
+  },
+  {
+    "slug": "inherent",
+    "word": "inherent",
+    "phonetic": "/ɪnˈhɪərənt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "内在的；固有的",
+    "example": "Every method has inherent limitations.",
+    "exampleZh": "每种方法都有其固有的局限性。",
+    "tags": ["research", "description"]
+  },
+  {
+    "slug": "innovative",
+    "word": "innovative",
+    "phonetic": "/ˈɪnəvətɪv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "创新的；革新的",
+    "example": "The city adopted an innovative approach to waste management.",
+    "exampleZh": "该城市采用了创新的废物管理方法。",
+    "tags": ["technology", "society"]
+  },
+  {
+    "slug": "negligible",
+    "word": "negligible",
+    "phonetic": "/ˈneɡlɪdʒəbəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "微不足道的；可忽略不计的",
+    "example": "The difference in cost was negligible.",
+    "exampleZh": "成本上的差异微不足道。",
+    "tags": ["data", "description"]
+  },
+  {
+    "slug": "prevalent",
+    "word": "prevalent",
+    "phonetic": "/ˈprevələnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "流行的；普遍存在的",
+    "example": "Remote work has become increasingly prevalent.",
+    "exampleZh": "远程办公变得越来越普遍。",
+    "tags": ["society", "trend"]
+  },
+  {
+    "slug": "profound",
+    "word": "profound",
+    "phonetic": "/prəˈfaʊnd/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "深远的；深刻的",
+    "example": "Digital technology has had a profound impact on communication.",
+    "exampleZh": "数字技术对沟通产生了深远影响。",
+    "tags": ["technology", "impact"]
+  },
+  {
+    "slug": "rigorous",
+    "word": "rigorous",
+    "phonetic": "/ˈrɪɡərəs/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "严谨的；严格的",
+    "example": "The experiment followed a rigorous scientific procedure.",
+    "exampleZh": "该实验遵循了严谨的科学流程。",
+    "tags": ["research", "academic"]
+  },
+  {
+    "slug": "substantial",
+    "word": "substantial",
+    "phonetic": "/səbˈstænʃəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "大量的；重大的；实质性的",
+    "example": "The program produced a substantial improvement in literacy rates.",
+    "exampleZh": "该项目使识字率得到显著提高。",
+    "tags": ["data", "impact"]
+  },
+  {
+    "slug": "sustainable",
+    "word": "sustainable",
+    "phonetic": "/səˈsteɪnəbəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "可持续的；能长期维持的",
+    "example": "Cities need sustainable transport systems.",
+    "exampleZh": "城市需要可持续的交通系统。",
+    "tags": ["environment", "society"]
+  },
+  {
+    "slug": "undermine",
+    "word": "undermine",
+    "phonetic": "/ˌʌndəˈmaɪn/",
+    "partOfSpeech": "v.",
+    "meaningZh": "逐渐削弱；损害",
+    "example": "Misinformation can undermine public trust in science.",
+    "exampleZh": "错误信息可能削弱公众对科学的信任。",
+    "tags": ["society", "impact"]
+  }
+]
