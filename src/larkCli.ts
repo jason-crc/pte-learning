@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { spawn, type ChildProcessWithoutNullStreams } from 'node:child_process';
 import type { Logger } from './logger.js';
+import type { MessageIdentity } from './types.js';
 
 export interface LarkCliOptions {
   bin: string;
@@ -100,25 +101,35 @@ export class LarkCliChannel {
     this.consumers.length = 0;
   }
 
-  async sendText(chatId: string, content: string, idempotencyKey: string): Promise<string> {
+  async sendText(
+    chatId: string,
+    content: string,
+    idempotencyKey: string,
+    identity: MessageIdentity = 'bot',
+  ): Promise<string> {
     const result = await this.runJson([
       'im', '+messages-send',
       '--chat-id', chatId,
       '--text', content,
-      '--as', 'bot',
+      '--as', identity,
       '--idempotency-key', stableIdempotencyKey(idempotencyKey),
       '--json',
     ], undefined, 3);
     return requireMessageId(result);
   }
 
-  async sendCard(chatId: string, card: Record<string, unknown>, idempotencyKey: string): Promise<string> {
+  async sendCard(
+    chatId: string,
+    card: Record<string, unknown>,
+    idempotencyKey: string,
+    identity: MessageIdentity = 'bot',
+  ): Promise<string> {
     const result = await this.runJson([
       'im', '+messages-send',
       '--chat-id', chatId,
       '--content', JSON.stringify(card),
       '--msg-type', 'interactive',
-      '--as', 'bot',
+      '--as', identity,
       '--idempotency-key', stableIdempotencyKey(idempotencyKey),
       '--json',
     ], undefined, 3);
@@ -126,12 +137,12 @@ export class LarkCliChannel {
   }
 
   async updateCard(event: LarkCardActionEvent, card: Record<string, unknown>): Promise<void> {
+    const personalizedCard = card.schema === '2.0'
+      ? card
+      : { ...card, open_ids: [event.operatorId] };
     const body = JSON.stringify({
       token: event.token,
-      card: {
-        ...card,
-        open_ids: [event.operatorId],
-      },
+      card: personalizedCard,
     });
     await this.runJson([
       'api', 'POST', '/open-apis/interactive/v1/card/update',

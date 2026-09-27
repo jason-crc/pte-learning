@@ -1,63 +1,143 @@
 [
   {
-    "slug": "allocate",
-    "word": "allocate",
-    "phonetic": "/ˈæləkeɪt/",
-    "partOfSpeech": "v.",
-    "meaningZh": "分配；拨出（资源或时间）",
-    "example": "The university allocated additional funds to the research project.",
-    "exampleZh": "大学为该研究项目拨出了额外资金。",
-    "tags": ["academic", "resource"]
+    "slug": "analyse",
+    "word": "analyse",
+    "phonetic": "/'ænәlaiz/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "分析, 细察, 分解",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "ambiguous",
-    "word": "ambiguous",
-    "phonetic": "/æmˈbɪɡjuəs/",
-    "partOfSpeech": "adj.",
-    "meaningZh": "含糊不清的；有歧义的",
-    "example": "The wording of the survey question was ambiguous.",
-    "exampleZh": "这道调查题的措辞存在歧义。",
-    "tags": ["academic", "description"]
+    "slug": "approach",
+    "word": "approach",
+    "phonetic": "/ә'prәutʃ/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "接近, 入门",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "coherent",
-    "word": "coherent",
-    "phonetic": "/kəʊˈhɪərənt/",
-    "partOfSpeech": "adj.",
-    "meaningZh": "连贯的；条理清楚的",
-    "example": "A good essay presents a coherent argument from beginning to end.",
-    "exampleZh": "一篇好文章会从头到尾呈现连贯的论点。",
-    "tags": ["writing", "academic"]
+    "slug": "area",
+    "word": "area",
+    "phonetic": "/'єәriә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "区域, 面积, 范围, 空地",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "compelling",
-    "word": "compelling",
-    "phonetic": "/kəmˈpelɪŋ/",
-    "partOfSpeech": "adj.",
-    "meaningZh": "令人信服的；引人注目的",
-    "example": "The researchers provided compelling evidence for their conclusion.",
-    "exampleZh": "研究人员为其结论提供了令人信服的证据。",
-    "tags": ["argument", "academic"]
+    "slug": "assess",
+    "word": "assess",
+    "phonetic": "/ә'ses/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "估定, 对...征税, 评定",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "comprehensive",
-    "word": "comprehensive",
-    "phonetic": "/ˌkɒmprɪˈhensɪv/",
-    "partOfSpeech": "adj.",
-    "meaningZh": "全面的；综合的",
-    "example": "The report offers a comprehensive review of climate policy.",
-    "exampleZh": "该报告对气候政策进行了全面回顾。",
-    "tags": ["reading", "academic"]
+    "slug": "assume",
+    "word": "assume",
+    "phonetic": "/ә'sju:m/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "假定, 承担, 呈现",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "consecutive",
-    "word": "consecutive",
-    "phonetic": "/kənˈsekjətɪv/",
+    "slug": "authority",
+    "word": "authority",
+    "phonetic": "/ɒ:'θɒriti/",
+    "partOfSpeech": "n.",
+    "meaningZh": "权力, 当权者, 当局, 权威, 专家",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "available",
+    "word": "available",
+    "phonetic": "/ә'veilәbl/",
     "partOfSpeech": "adj.",
-    "meaningZh": "连续的；相继的",
-    "example": "Enrollment increased for three consecutive years.",
-    "exampleZh": "入学人数连续三年增长。",
-    "tags": ["data", "academic"]
+    "meaningZh": "可利用的, 可获得的, 有效的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "benefit",
+    "word": "benefit",
+    "phonetic": "/'benifit/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "利益",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "concept",
+    "word": "concept",
+    "phonetic": "/'kɒnsept/",
+    "partOfSpeech": "n.",
+    "meaningZh": "观念, 概念",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "consist",
+    "word": "consist",
+    "phonetic": "/kәn'sist/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "组成, 存在于, 一致",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
     "slug": "constitute",
@@ -67,97 +147,3569 @@
     "meaningZh": "构成；组成；被视为",
     "example": "Online sales constitute a large share of the company's revenue.",
     "exampleZh": "线上销售构成了公司收入的很大一部分。",
-    "tags": ["academic", "business"]
+    "tags": [
+      "academic",
+      "business",
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "controversial",
-    "word": "controversial",
-    "phonetic": "/ˌkɒntrəˈvɜːʃəl/",
-    "partOfSpeech": "adj.",
-    "meaningZh": "有争议的",
-    "example": "The proposed policy remains highly controversial.",
-    "exampleZh": "这项拟议政策仍然极具争议。",
-    "tags": ["argument", "society"]
-  },
-  {
-    "slug": "deteriorate",
-    "word": "deteriorate",
-    "phonetic": "/dɪˈtɪəriəreɪt/",
-    "partOfSpeech": "v.",
-    "meaningZh": "恶化；退化",
-    "example": "Air quality may deteriorate during periods of extreme heat.",
-    "exampleZh": "在极端高温期间，空气质量可能恶化。",
-    "tags": ["environment", "change"]
-  },
-  {
-    "slug": "diminish",
-    "word": "diminish",
-    "phonetic": "/dɪˈmɪnɪʃ/",
-    "partOfSpeech": "v.",
-    "meaningZh": "减少；削弱",
-    "example": "The benefits diminish when the treatment is stopped.",
-    "exampleZh": "停止治疗后，其益处会减弱。",
-    "tags": ["change", "academic"]
-  },
-  {
-    "slug": "discrepancy",
-    "word": "discrepancy",
-    "phonetic": "/dɪˈskrepənsi/",
+    "slug": "context",
+    "word": "context",
+    "phonetic": "/'kɒntekst/",
     "partOfSpeech": "n.",
-    "meaningZh": "差异；不一致",
-    "example": "There was a discrepancy between the two sets of results.",
-    "exampleZh": "两组结果之间存在差异。",
-    "tags": ["data", "research"]
+    "meaningZh": "上下文, 背景, 来龙去脉",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "empirical",
-    "word": "empirical",
-    "phonetic": "/ɪmˈpɪrɪkəl/",
+    "slug": "contract",
+    "word": "contract",
+    "phonetic": "/'kɒntrækt/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "合约, 婚约, 契约",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "create",
+    "word": "create",
+    "phonetic": "/kri:'eit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "创造, 建造, 引起, 任命",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "data",
+    "word": "data",
+    "phonetic": "/'deitә/",
+    "partOfSpeech": "n. [复数]",
+    "meaningZh": "资料, 数据",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "define",
+    "word": "define",
+    "phonetic": "/di'fain/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "定义, 规定, 使明确",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "derive",
+    "word": "derive",
+    "phonetic": "/di'raiv/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "得自",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "distribute",
+    "word": "distribute",
+    "phonetic": "/di'stribju:t/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "分配, 散布, 分发",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "economy",
+    "word": "economy",
+    "phonetic": "/i'kɒnәmi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "经济, 理财, 节约",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "environment",
+    "word": "environment",
+    "phonetic": "/in'vairәnmәnt/",
+    "partOfSpeech": "n.",
+    "meaningZh": "环境, 外界, 围绕",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "establish",
+    "word": "establish",
+    "phonetic": "/i'stæbliʃ/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "建立, 确立, 制定",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "estimate",
+    "word": "estimate",
+    "phonetic": "/'estimeit/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "估计, 判断",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "evident",
+    "word": "evident",
+    "phonetic": "/'evidәnt/",
     "partOfSpeech": "adj.",
-    "meaningZh": "以观察或实验为依据的；实证的",
-    "example": "The theory is supported by empirical evidence.",
-    "exampleZh": "该理论得到了实证证据的支持。",
-    "tags": ["research", "academic"]
+    "meaningZh": "显然的, 明显的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "enhance",
-    "word": "enhance",
-    "phonetic": "/ɪnˈhɑːns/",
-    "partOfSpeech": "v.",
-    "meaningZh": "提高；增强；改善",
-    "example": "Regular feedback can enhance student performance.",
-    "exampleZh": "定期反馈可以提高学生的表现。",
-    "tags": ["education", "change"]
+    "slug": "export",
+    "word": "export",
+    "phonetic": "/ik'spɒ:t/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "输出品, 输出",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "exacerbate",
-    "word": "exacerbate",
-    "phonetic": "/ɪɡˈzæsəbeɪt/",
-    "partOfSpeech": "v.",
-    "meaningZh": "使恶化；加剧",
-    "example": "A shortage of housing may exacerbate social inequality.",
-    "exampleZh": "住房短缺可能加剧社会不平等。",
-    "tags": ["society", "change"]
+    "slug": "factor",
+    "word": "factor",
+    "phonetic": "/'fæktә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "因素, 因数, 系数, 基因, 代理人",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "feasible",
-    "word": "feasible",
-    "phonetic": "/ˈfiːzəbəl/",
+    "slug": "finance",
+    "word": "finance",
+    "phonetic": "/fai'næns/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "财政, 财务",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "formula",
+    "word": "formula",
+    "phonetic": "/'fɒ:mjulә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "客套语, 公式, 准则",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "function",
+    "word": "function",
+    "phonetic": "/'fʌŋkʃәn/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "官能, 职务, 功能, 函数",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "identify",
+    "word": "identify",
+    "phonetic": "/ai'dentifai/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "识别, 认为...等同于, 确定, 使参与",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "income",
+    "word": "income",
+    "phonetic": "/'inkʌm/",
+    "partOfSpeech": "n.",
+    "meaningZh": "收入, 收益, 流入",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "indicate",
+    "word": "indicate",
+    "phonetic": "/'indikeit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "显示, 象征, 指示, 指出",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "individual",
+    "word": "individual",
+    "phonetic": "/.indi'vidʒuәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "人, 个人, 个体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "interpret",
+    "word": "interpret",
+    "phonetic": "/in'tә:prit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "解释, 演出, 翻译, 理解",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "involve",
+    "word": "involve",
+    "phonetic": "/in'vɒlv/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "包括, 使陷于, 潜心于, 包围",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "issue",
+    "word": "issue",
+    "phonetic": "/'isju/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "发行, 问题, 后果, 流出, 出口, 争端",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "labour",
+    "word": "labour",
+    "phonetic": "/'leibә/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "劳动, 努力, 工作, 劳工, 分娩",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "legal",
+    "word": "legal",
+    "phonetic": "/'li:gәl/",
     "partOfSpeech": "adj.",
-    "meaningZh": "可行的；行得通的",
-    "example": "The committee will determine whether the proposal is feasible.",
-    "exampleZh": "委员会将判断该提案是否可行。",
-    "tags": ["decision", "academic"]
+    "meaningZh": "法律的, 法定的, 合法的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
   },
   {
-    "slug": "fluctuate",
-    "word": "fluctuate",
-    "phonetic": "/ˈflʌktʃueɪt/",
+    "slug": "legislate",
+    "word": "legislate",
+    "phonetic": "/'ledʒisleit/",
+    "partOfSpeech": "vi. / vt.",
+    "meaningZh": "制定法律",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "major",
+    "word": "major",
+    "phonetic": "/'meidʒә/",
+    "partOfSpeech": "n. / adj. / vi.",
+    "meaningZh": "主修课, 成年人, 陆军少校",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "method",
+    "word": "method",
+    "phonetic": "/'meθәd/",
+    "partOfSpeech": "n.",
+    "meaningZh": "方法, 办法, 条理, 秩序",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "occur",
+    "word": "occur",
+    "phonetic": "/ә'kә:/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "发生, 被想到, 存在",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "percent",
+    "word": "percent",
+    "phonetic": "/pә'sent/",
+    "partOfSpeech": "n.",
+    "meaningZh": "百分比, 百分数, 部分",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "period",
+    "word": "period",
+    "phonetic": "/'piәriәd/",
+    "partOfSpeech": "n. / adj. / interj.",
+    "meaningZh": "时期, 节段, 节, 句点, 学时, 周期",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "policy",
+    "word": "policy",
+    "phonetic": "/'pɒlisi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "政策, 方针, 策略, 保险单",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "principle",
+    "word": "principle",
+    "phonetic": "/'prinsipl/",
+    "partOfSpeech": "n.",
+    "meaningZh": "原则, 原理, 主义",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "proceed",
+    "word": "proceed",
+    "phonetic": "/prәu'si:d/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "继续进行, 进行, 开始, 发出, 起诉",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "process",
+    "word": "process",
+    "phonetic": "/'prɒses/",
+    "partOfSpeech": "n. / vt. / adj.",
+    "meaningZh": "程序, 进行, 过程",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "require",
+    "word": "require",
+    "phonetic": "/ri'kwaiә/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "需要, 命令, 要求",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "research",
+    "word": "research",
+    "phonetic": "/ri'sә:tʃ/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "研究, 调查, 考察",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "respond",
+    "word": "respond",
+    "phonetic": "/ri'spɒnd/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "以...回答",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "role",
+    "word": "role",
+    "phonetic": "/rәul/",
+    "partOfSpeech": "n.",
+    "meaningZh": "角色, 职责, 任务",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "section",
+    "word": "section",
+    "phonetic": "/'sekʃәn/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "区段, 部分, 区域, 节, 截面, 处, 科, 区, 扇区",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "sector",
+    "word": "sector",
+    "phonetic": "/'sektә/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "扇形, 部门, 部分, 函数尺, 象限仪, 段, 区段",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "significant",
+    "word": "significant",
+    "phonetic": "/sig'nifikәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "重要的, 有效的, 有含义的, 暗示的, 值得注意的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "similar",
+    "word": "similar",
+    "phonetic": "/'similә/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "相似的, 类似的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "source",
+    "word": "source",
+    "phonetic": "/sɒ:s/",
+    "partOfSpeech": "n.",
+    "meaningZh": "来源, 水源, 根源, 原始资料, 源",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "specific",
+    "word": "specific",
+    "phonetic": "/spi'sifik/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "特效药, 特性",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "structure",
+    "word": "structure",
+    "phonetic": "/'strʌktʃә/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "结构, 构造, 建筑物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "theory",
+    "word": "theory",
+    "phonetic": "/'θiәri/",
+    "partOfSpeech": "n.",
+    "meaningZh": "理论, 学说, 原理, 意见, 推测",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "vary",
+    "word": "vary",
+    "phonetic": "/'vєәri/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "改变, 使多样化",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-1"
+    ]
+  },
+  {
+    "slug": "achieve",
+    "word": "achieve",
+    "phonetic": "/ә'tʃi:v/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "完成, 达到",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "acquire",
+    "word": "acquire",
+    "phonetic": "/ә'kwaiә/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "获得, 学到",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "administrate",
+    "word": "administrate",
+    "phonetic": "/әd'ministreit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "管理, 支配",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "affect",
+    "word": "affect",
+    "phonetic": "/ә'fekt/",
+    "partOfSpeech": "vt. / n.",
+    "meaningZh": "影响, 感动, 假装, 模仿, 爱好, 倾向于",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "appropriate",
+    "word": "appropriate",
+    "phonetic": "/ә'prәupriәt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "适当的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "aspect",
+    "word": "aspect",
+    "phonetic": "/'æspekt/",
+    "partOfSpeech": "n.",
+    "meaningZh": "外观, 方面, 面貌, 方向",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "assist",
+    "word": "assist",
+    "phonetic": "/ә'sist/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "帮助, 协助",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "category",
+    "word": "category",
+    "phonetic": "/'kætigәri/",
+    "partOfSpeech": "n.",
+    "meaningZh": "种类, 类项",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "chapter",
+    "word": "chapter",
+    "phonetic": "/'tʃæptә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "章, 篇, 重要章节",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "commission",
+    "word": "commission",
+    "phonetic": "/kә'miʃәn/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "委任状, 任官令, 所委职责, 佣金, 犯, 委托, 所托之事",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "community",
+    "word": "community",
+    "phonetic": "/kә'mju:niti/",
+    "partOfSpeech": "n.",
+    "meaningZh": "社区, 公众, 共有, 共同体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "complex",
+    "word": "complex",
+    "phonetic": "/kәm'pleks/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "综合体, 情结, 络合物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "compute",
+    "word": "compute",
+    "phonetic": "/kәm'pju:t/",
+    "partOfSpeech": "v. / n.",
+    "meaningZh": "计算, 估算",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "conclude",
+    "word": "conclude",
+    "phonetic": "/kәn'klu:d/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "结束, 作结论, 推断",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "conduct",
+    "word": "conduct",
+    "phonetic": "/'kɔndʌkt, -dәkt/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "行为, 举动, 指导",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "consequent",
+    "word": "consequent",
+    "phonetic": "/'kɒnsikwәnt/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "随后发生的事情, 结果",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "construct",
+    "word": "construct",
+    "phonetic": "/kәn'strʌkt/",
+    "partOfSpeech": "vt. / n.",
+    "meaningZh": "构造, 建造, 对...进行构思, 作图",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "consume",
+    "word": "consume",
+    "phonetic": "/kәn'sju:m/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "消耗, 消费, 消灭",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "credit",
+    "word": "credit",
+    "phonetic": "/'kredit/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "信用, 信任, 荣誉, 贷款, 学分",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "culture",
+    "word": "culture",
+    "phonetic": "/'kʌltʃә/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "文化, 修养, 耕种",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "design",
+    "word": "design",
+    "phonetic": "/di'zain/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "设计, 图样, 方案, 企图",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "distinct",
+    "word": "distinct",
+    "phonetic": "/dis'tiŋkt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "清楚的, 显著的, 不同的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "element",
+    "word": "element",
+    "phonetic": "/'elimәnt/",
+    "partOfSpeech": "n.",
+    "meaningZh": "元件, 元素, 要素",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "equate",
+    "word": "equate",
+    "phonetic": "/i'kweit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使相等, 视为平等",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "evaluate",
+    "word": "evaluate",
+    "phonetic": "/i'væljueit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "评估, 评价, 赋值",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "feature",
+    "word": "feature",
+    "phonetic": "/'fi:tʃә/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "面孔的一部分(如眼、口等), 特征, 容貌, 特色, 特写",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "final",
+    "word": "final",
+    "phonetic": "/'fainl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "期末考试, 结局, 决赛",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "focus",
+    "word": "focus",
+    "phonetic": "/'fәukәs/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "焦点, 焦距",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "impact",
+    "word": "impact",
+    "phonetic": "/'impækt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "冲击, 冲突, 影响, 效果",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "injure",
+    "word": "injure",
+    "phonetic": "/'indʒә/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "伤害, 损害, 使受冤屈",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "institute",
+    "word": "institute",
+    "phonetic": "/'institju:t/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "学会, 学院, 协会",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "invest",
+    "word": "invest",
+    "phonetic": "/in'vest/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "投资, 花费, 笼罩, 授予",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "item",
+    "word": "item",
+    "phonetic": "/'aitәm/",
+    "partOfSpeech": "n.",
+    "meaningZh": "项目, 条款, 一则, 项",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "journal",
+    "word": "journal",
+    "phonetic": "/'dʒә:nәl/",
+    "partOfSpeech": "n.",
+    "meaningZh": "日记, 杂志, 日报",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "maintain",
+    "word": "maintain",
+    "phonetic": "/mein'tein/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "维持, 维修, 保持, 坚持, 供养, 主张",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "normal",
+    "word": "normal",
+    "phonetic": "/'nɒ:ml/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "常态, 标准, 正常, 普通",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "obtain",
+    "word": "obtain",
+    "phonetic": "/әb'tein/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "获得, 达到",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "participate",
+    "word": "participate",
+    "phonetic": "/pɑ:'tisipeit/",
+    "partOfSpeech": "vi. / vt.",
+    "meaningZh": "参加, 分享, 参与, 带有",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "perceive",
+    "word": "perceive",
+    "phonetic": "/pә'si:v/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "感觉, 认知, 理解, 意识到",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "positive",
+    "word": "positive",
+    "phonetic": "/'pɒzitiv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "肯定的, 积极的, 有把握的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "potential",
+    "word": "potential",
+    "phonetic": "/pә'tenʃәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "潜在性, 可能性, 潜力, 潜能, 势, 位",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "previous",
+    "word": "previous",
+    "phonetic": "/'pri:viәs/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "早先的, 前面的, 过急的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "primary",
+    "word": "primary",
+    "phonetic": "/'praimәri/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "最主要者, 原色",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "purchase",
+    "word": "purchase",
+    "phonetic": "/'pә:tʃәs/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "购买, 购买品, 紧握, 绞辘",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "range",
+    "word": "range",
+    "phonetic": "/'reindʒ/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "排, 行, 山脉, 范围, 行列, 射程",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "region",
+    "word": "region",
+    "phonetic": "/'ri:dʒәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "区域, 地带, 地区, 领域, 范围, 区",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "regulate",
+    "word": "regulate",
+    "phonetic": "/'regjuleit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "管理, 控制, 调节, 调整, 校准",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "relevant",
+    "word": "relevant",
+    "phonetic": "/'relivәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "有关联的, 有关系的, 适当的, 相应的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "reside",
+    "word": "reside",
+    "phonetic": "/ri'zaid/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "住, 居留, 属于",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "resource",
+    "word": "resource",
+    "phonetic": "/ri'sɒ:s/",
+    "partOfSpeech": "n.",
+    "meaningZh": "资源, 财力, 办法, 策略, 急智, 消遣",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "restrict",
+    "word": "restrict",
+    "phonetic": "/ri'strikt/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "限制, 限定, 约束",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "secure",
+    "word": "secure",
+    "phonetic": "/si'kjuә/",
+    "partOfSpeech": "adj. / vt. / vi.",
+    "meaningZh": "无虑的, 安心的, 安全的, 可靠的, 保险的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "seek",
+    "word": "seek",
+    "phonetic": "/si:k/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "寻求, 寻找, 探索, 追求, 搜索, 请求",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "select",
+    "word": "select",
+    "phonetic": "/si'lekt/",
+    "partOfSpeech": "adj. / v. / n.",
+    "meaningZh": "挑选出来的, 极好的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "site",
+    "word": "site",
+    "phonetic": "/sait/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "位置, 场所, 地点",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "strategy",
+    "word": "strategy",
+    "phonetic": "/'strætidʒi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "战略, 策略",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "survey",
+    "word": "survey",
+    "phonetic": "/sә'vei/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "纵览, 视察, 测量, 俯瞰, 调查",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "text",
+    "word": "text",
+    "phonetic": "/tekst/",
+    "partOfSpeech": "n.",
+    "meaningZh": "文本, 正文, 课文, 主题, 圣经文句, 乐谱",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "tradition",
+    "word": "tradition",
+    "phonetic": "/trә'diʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "传说, 传统, 交付",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "transfer",
+    "word": "transfer",
+    "phonetic": "/træns'fә:/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "迁移, 移动, 传递, 转让, 转移, 过户, 汇兑, 换车",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-2"
+    ]
+  },
+  {
+    "slug": "alternative",
+    "word": "alternative",
+    "phonetic": "/ɒ:l'tә:nәtiv/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "两者择一, 供替代的选择",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "circumstance",
+    "word": "circumstance",
+    "phonetic": "/'sә:kәmstәns/",
+    "partOfSpeech": "n.",
+    "meaningZh": "环境, 状况, 事件",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "comment",
+    "word": "comment",
+    "phonetic": "/'kɒment/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "注解, 批评, 评论, 备注",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "compensate",
+    "word": "compensate",
+    "phonetic": "/'kɒmpenseit/",
     "partOfSpeech": "v.",
-    "meaningZh": "波动；起伏不定",
-    "example": "Energy prices fluctuate in response to global demand.",
-    "exampleZh": "能源价格会随全球需求而波动。",
-    "tags": ["data", "economics"]
+    "meaningZh": "偿还, 补偿, 付报酬",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "component",
+    "word": "component",
+    "phonetic": "/kәm'pәunәnt/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "元件, 组件, 成分",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "consent",
+    "word": "consent",
+    "phonetic": "/kәn'sent/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "同意, 许可",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "considerable",
+    "word": "considerable",
+    "phonetic": "/kәn'sidәrәbl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "相当的, 可观的, 重要的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "constant",
+    "word": "constant",
+    "phonetic": "/'kɒnstәnt/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "常数, 恒量",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "constrain",
+    "word": "constrain",
+    "phonetic": "/kәn'strein/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "强迫, 限制, 关押",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "contribute",
+    "word": "contribute",
+    "phonetic": "/kәn'tribju:t/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "有助于, 捐助, 投稿",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "convene",
+    "word": "convene",
+    "phonetic": "/kәn'vi:n/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "集合, 召集, 召唤",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "coordinate",
+    "word": "coordinate",
+    "phonetic": "/kәu'ɒ:dineit/",
+    "partOfSpeech": "n. / adj. / v.",
+    "meaningZh": "同等的人(或物), 坐标",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "core",
+    "word": "core",
+    "phonetic": "/kɒ:/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "核心, 果心, 要点",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "corporate",
+    "word": "corporate",
+    "phonetic": "/'kɒ:pәrit/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "社团的, 合伙的, 公司的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "correspond",
+    "word": "correspond",
+    "phonetic": "/.kɒri'spɒnd/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "符合, 通信, 相当",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "criteria",
+    "word": "criteria",
+    "phonetic": "/krai'tiәriә/",
+    "partOfSpeech": "n. [复数]",
+    "meaningZh": "标准",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "deduce",
+    "word": "deduce",
+    "phonetic": "/di'dju:s/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "推论, 演绎出",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "demonstrate",
+    "word": "demonstrate",
+    "phonetic": "/'demәnstreit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "示范, 证明",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "document",
+    "word": "document",
+    "phonetic": "/'dɒkjumәnt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "文件, 公文, 文档",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "dominate",
+    "word": "dominate",
+    "phonetic": "/'dɒmineit/",
+    "partOfSpeech": "v.",
+    "meaningZh": "支配, 占优势",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "emphasis",
+    "word": "emphasis",
+    "phonetic": "/'emfәsis/",
+    "partOfSpeech": "n.",
+    "meaningZh": "强调, 加强, 重点, 强语气",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "ensure",
+    "word": "ensure",
+    "phonetic": "/in'ʃuә/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "确定, 保证, 担保, 保护",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "exclude",
+    "word": "exclude",
+    "phonetic": "/iks'klu:d/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "除外, 排除, 排斥",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "framework",
+    "word": "framework",
+    "phonetic": "/'freimwә:k/",
+    "partOfSpeech": "n.",
+    "meaningZh": "结构, 骨架, 参照标准, 准则, 观点",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "fund",
+    "word": "fund",
+    "phonetic": "/fʌnd/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "基金, 资金, 存款, 财源, 贮藏",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "illustrate",
+    "word": "illustrate",
+    "phonetic": "/'ilәstreit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "举例说明, 作图解, 阐明",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "immigrate",
+    "word": "immigrate",
+    "phonetic": "/'imigreit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使移居入境",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "imply",
+    "word": "imply",
+    "phonetic": "/im'plai/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "暗示, 意味",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "initial",
+    "word": "initial",
+    "phonetic": "/i'niʃәl/",
+    "partOfSpeech": "n. / adj. / vt.",
+    "meaningZh": "字首, 首字母",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "instance",
+    "word": "instance",
+    "phonetic": "/'instәns/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "建议, 情况, 例子, 场合",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "interact",
+    "word": "interact",
+    "phonetic": "/.intәr'ækt/",
+    "partOfSpeech": "vi. / n.",
+    "meaningZh": "互相影响, 交互作用",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "justify",
+    "word": "justify",
+    "phonetic": "/'dʒʌstifai/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "替...辩护, 证明",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "layer",
+    "word": "layer",
+    "phonetic": "/'leiә/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "层, 产卵鸡, 放置者",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "link",
+    "word": "link",
+    "phonetic": "/liŋk/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "环, 连结物, 链接, 火把",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "locate",
+    "word": "locate",
+    "phonetic": "/'lәukeit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "找出, 设于, 位于",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "maximise",
+    "word": "maximise",
+    "phonetic": "/'mæksimaiz/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "把...增加到最大限度, 把...扩大到最大限度, 充分重视, 找出...的最高值",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "minor",
+    "word": "minor",
+    "phonetic": "/'mainә/",
+    "partOfSpeech": "n. / adj. / vi.",
+    "meaningZh": "未成年人, 副修科目",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "negate",
+    "word": "negate",
+    "phonetic": "/ni'geit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "否定, 否认, 取消",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "outcome",
+    "word": "outcome",
+    "phonetic": "/'autkʌm/",
+    "partOfSpeech": "n.",
+    "meaningZh": "结果, 出口",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "partner",
+    "word": "partner",
+    "phonetic": "/'pɑ:tnә/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "合伙人, 股东, 伙伴, 伴侣",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "philosophy",
+    "word": "philosophy",
+    "phonetic": "/fi'lɒsәfi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "哲学, 人生观, 哲学思想, 哲理, 基本原理, 见解, 达观, 沉着",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "physical",
+    "word": "physical",
+    "phonetic": "/'fizikl/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "身体的, 物质的, 自然的, 物理学的, 好色的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "proportion",
+    "word": "proportion",
+    "phonetic": "/prә'pɒ:ʃәn/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "比例, 比率, 均衡, 部分, 面积",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "publish",
+    "word": "publish",
+    "phonetic": "/'pʌbliʃ/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "出版, 发行, 公开, 发表, 宣传, 公布",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "react",
+    "word": "react",
+    "phonetic": "/ri'ækt/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "起反应, 起作用, 反攻",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "register",
+    "word": "register",
+    "phonetic": "/'redʒistә/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "寄存器, 记录, 登记簿, 注册",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "rely",
+    "word": "rely",
+    "phonetic": "/ri'lai/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "信赖, 依赖, 信任",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "remove",
+    "word": "remove",
+    "phonetic": "/ri'mu:v/",
+    "partOfSpeech": "vt. / vi. / n.",
+    "meaningZh": "移动, 调动, 除去, 迁移, 开除, 移交",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "scheme",
+    "word": "scheme",
+    "phonetic": "/ski:m/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "方案, 计划, 组合, 系统, 图解, 诡计, 阴谋",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "sequence",
+    "word": "sequence",
+    "phonetic": "/'si:kwәns/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "序列, 续发事件, 顺序, 连续",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "sex",
+    "word": "sex",
+    "phonetic": "/seks/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "性别, 性欲",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "shift",
+    "word": "shift",
+    "phonetic": "/ʃift/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "变化, 移动, 轮班, 手段, 应急办法, 移位",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "specify",
+    "word": "specify",
+    "phonetic": "/'spesifai/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "详列, 指定, 说明",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "sufficient",
+    "word": "sufficient",
+    "phonetic": "/sә'fiʃәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "充分的, 足够的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "task",
+    "word": "task",
+    "phonetic": "/tɑ:sk/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "工作, 任务, 作业, 困难的工作",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "technical",
+    "word": "technical",
+    "phonetic": "/'teknikl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "技术上的, 专门的, 工业的, 严格根据法律的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "technique",
+    "word": "technique",
+    "phonetic": "/tek'ni:k/",
+    "partOfSpeech": "n.",
+    "meaningZh": "技巧, 技术, 方法",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "technology",
+    "word": "technology",
+    "phonetic": "/tek'nɒlәdʒi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "技术, 工业技术, 术语",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "valid",
+    "word": "valid",
+    "phonetic": "/'vælid/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "有确实根据的, 有法律效力的, 正当的, 正确的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "volume",
+    "word": "volume",
+    "phonetic": "/'vɒljum/",
+    "partOfSpeech": "n. / vi. / vt. / adj.",
+    "meaningZh": "册, 卷, 体积, 容量, 大量, 许多, 份量, 音量",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-3"
+    ]
+  },
+  {
+    "slug": "access",
+    "word": "access",
+    "phonetic": "/'ækses/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "通路, 入口, 接近, 进入, 使用权, 发作",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "adequate",
+    "word": "adequate",
+    "phonetic": "/'ædikwәt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "适当的, 足够的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "annual",
+    "word": "annual",
+    "phonetic": "/'ænjuәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "年刊, 年报",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "apparent",
+    "word": "apparent",
+    "phonetic": "/ә'pærәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "清晰可见的, 显然的, 表面上的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "approximate",
+    "word": "approximate",
+    "phonetic": "/ә'prɒksimәt/",
+    "partOfSpeech": "adj. / vt. / vi.",
+    "meaningZh": "大约的, 接近的, 近似的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "attitude",
+    "word": "attitude",
+    "phonetic": "/'ætitju:d/",
+    "partOfSpeech": "n.",
+    "meaningZh": "态度, 看法, 姿势",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "attribute",
+    "word": "attribute",
+    "phonetic": "/ә'tribju:t/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "属性, 标志, 定语",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "civil",
+    "word": "civil",
+    "phonetic": "/'sivәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "市民的, 公民的, 有礼貌的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "code",
+    "word": "code",
+    "phonetic": "/kәud/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "代码, 密码, 法规, 法典",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "commit",
+    "word": "commit",
+    "phonetic": "/kә'mit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "委托(托付), 犯罪, 指派...作战, 使承担义务",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "communicate",
+    "word": "communicate",
+    "phonetic": "/kә'mju:nikeit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "显露, 传达, 感染",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "concentrate",
+    "word": "concentrate",
+    "phonetic": "/'kɒnsәntreit/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "浓缩, 精选",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "confer",
+    "word": "confer",
+    "phonetic": "/kәn'fә:/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "授予, 带来",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "contrast",
+    "word": "contrast",
+    "phonetic": "/kәn'træst/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "差别, 对比, 对照物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "cycle",
+    "word": "cycle",
+    "phonetic": "/'saikl/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "周期, 循环, 自行车, 一段时间, 整套",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "debate",
+    "word": "debate",
+    "phonetic": "/di'beit/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "辩论, 讨论",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "despite",
+    "word": "despite",
+    "phonetic": "/di'spait/",
+    "partOfSpeech": "n. / prep.",
+    "meaningZh": "轻视, 憎恨",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "dimension",
+    "word": "dimension",
+    "phonetic": "/dai'menʃәn/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "尺寸, 次元, 面积, 维数",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "domestic",
+    "word": "domestic",
+    "phonetic": "/dәu'mestik/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "家庭的, 国内的, 驯养的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "emerge",
+    "word": "emerge",
+    "phonetic": "/i'mә:dʒ/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "浮现, 形成, 出现, (事实)显露",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "error",
+    "word": "error",
+    "phonetic": "/'erә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "错误, 过失, 失误, 误差",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "ethnic",
+    "word": "ethnic",
+    "phonetic": "/'eθnik/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "人种的, 种族的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "goal",
+    "word": "goal",
+    "phonetic": "/gәul/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "目标, 终点, 得分, 球门, 守门员",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "grant",
+    "word": "grant",
+    "phonetic": "/grænt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "授予, 授予物, 允许",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "hence",
+    "word": "hence",
+    "phonetic": "/hens/",
+    "partOfSpeech": "adv.",
+    "meaningZh": "因此, 从此",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "hypothesis",
+    "word": "hypothesis",
+    "phonetic": "/hai'pɒθәsis/",
+    "partOfSpeech": "n.",
+    "meaningZh": "假设",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "implement",
+    "word": "implement",
+    "phonetic": "/'implimәnt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "工具, 器具, 手段",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "implicate",
+    "word": "implicate",
+    "phonetic": "/'implikeit/",
+    "partOfSpeech": "vt. / n.",
+    "meaningZh": "涉及, 含意, 暗示, 牵连",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "impose",
+    "word": "impose",
+    "phonetic": "/im'pәuz/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "征(税), 把...强加于, 以...欺骗",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "integrate",
+    "word": "integrate",
+    "phonetic": "/'intigreit/",
+    "partOfSpeech": "vt. / vi. / adj.",
+    "meaningZh": "综合, 使完整, 使成整体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "internal",
+    "word": "internal",
+    "phonetic": "/in'tә:nәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "内在的, 国内的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "investigate",
+    "word": "investigate",
+    "phonetic": "/in'vestigeit/",
+    "partOfSpeech": "v.",
+    "meaningZh": "调查, 审查",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "job",
+    "word": "job",
+    "phonetic": "/dʒɒb/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "工作, 零活, 职业, 事情",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "label",
+    "word": "label",
+    "phonetic": "/'leibl/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "标签, 称号, 商标, 标志",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "mechanism",
+    "word": "mechanism",
+    "phonetic": "/'mekәnizm/",
+    "partOfSpeech": "n.",
+    "meaningZh": "机械, 机构, 结构, 机理, 技巧",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "obvious",
+    "word": "obvious",
+    "phonetic": "/'ɒbviәs/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "明显的, 明白的, 显然的, 平淡无奇的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "occupy",
+    "word": "occupy",
+    "phonetic": "/'ɒkjupai/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "占领, 占(时间、空间等), 住进, 担任, 使从事, 使全神贯注",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "option",
+    "word": "option",
+    "phonetic": "/'ɒpʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "选择权, 挑选, 选项",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "output",
+    "word": "output",
+    "phonetic": "/'autput/",
+    "partOfSpeech": "n.",
+    "meaningZh": "输出, 产品, 产量",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "overall",
+    "word": "overall",
+    "phonetic": "/'әuvәrɒ:l/",
+    "partOfSpeech": "adj. / adv. / n.",
+    "meaningZh": "全部的, 全体的, 从头至尾的, 一切在内的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "parallel",
+    "word": "parallel",
+    "phonetic": "/'pærәlel/",
+    "partOfSpeech": "n. / adj. / vt.",
+    "meaningZh": "平行, 对比, 相匹敌之物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "parameter",
+    "word": "parameter",
+    "phonetic": "/pә'ræmitә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "参变数, 参变量, 参数, 参量",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "phase",
+    "word": "phase",
+    "phonetic": "/feiz/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "时期, 局面, 方面, 位相, 相, 阶段",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "predict",
+    "word": "predict",
+    "phonetic": "/pri'dikt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "预知, 预言, 预报",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "principal",
+    "word": "principal",
+    "phonetic": "/'prinsipәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "校长, 首长, 本金, 主犯, 资本, 委托人",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "prior",
+    "word": "prior",
+    "phonetic": "/'praiә/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "更重要的, 较早的, 在先的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "professional",
+    "word": "professional",
+    "phonetic": "/prә'feʃәnl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "专业人才",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "project",
+    "word": "project",
+    "phonetic": "/'prɒdʒekt/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "计划, 设计, 事业",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "promote",
+    "word": "promote",
+    "phonetic": "/prәu'mәut/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "促进, 晋升, 创办, 推销",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "regime",
+    "word": "regime",
+    "phonetic": "/rei'ʒi:m/",
+    "partOfSpeech": "n.",
+    "meaningZh": "政权, 当权期间, 政体, 社会制度, 体制, 情态",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "resolve",
+    "word": "resolve",
+    "phonetic": "/ri'zɒlv/",
+    "partOfSpeech": "vi. / vt. / n.",
+    "meaningZh": "决定, 分解, 决心",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "retain",
+    "word": "retain",
+    "phonetic": "/ri'tein/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "保持, 保有, 留住, 记得, 付定金聘请",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "series",
+    "word": "series",
+    "phonetic": "/'siәri:z/",
+    "partOfSpeech": "n.",
+    "meaningZh": "串联, 序列, 连续, 系列, 丛书, 套, 级数, 组",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "statistic",
+    "word": "statistic",
+    "phonetic": "/stә'tistik/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "统计量",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "status",
+    "word": "status",
+    "phonetic": "/'steitәs/",
+    "partOfSpeech": "n.",
+    "meaningZh": "状态, 情形, 地位, 要人身份",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "stress",
+    "word": "stress",
+    "phonetic": "/stres/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "压力, 紧迫, 强调, 重音, 重点, 应力",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "subsequent",
+    "word": "subsequent",
+    "phonetic": "/'sʌbsikwәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "后来的, 接下去的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "sum",
+    "word": "sum",
+    "phonetic": "/sʌm/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "总数, 总和, 金额, 概要, 顶点",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "summary",
+    "word": "summary",
+    "phonetic": "/'sʌmәri/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "摘要, 概要",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "undertake",
+    "word": "undertake",
+    "phonetic": "/.ʌndә'teik/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "试图, 从事, 保证, 承担, 同意, 接受",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-4"
+    ]
+  },
+  {
+    "slug": "academy",
+    "word": "academy",
+    "phonetic": "/ә'kædәmi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "学院, 院校, 学会",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "adjust",
+    "word": "adjust",
+    "phonetic": "/ә'dʒʌst/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "调整, 使适应于, 校准",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "alter",
+    "word": "alter",
+    "phonetic": "/'ɒ:ltә/",
+    "partOfSpeech": "v.",
+    "meaningZh": "改变",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "amend",
+    "word": "amend",
+    "phonetic": "/ә'mend/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "修改, 改善, 改良",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "aware",
+    "word": "aware",
+    "phonetic": "/ә'wєә/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "知道的, 有觉悟的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "capacity",
+    "word": "capacity",
+    "phonetic": "/kә'pæsiti/",
+    "partOfSpeech": "n.",
+    "meaningZh": "容量, 能力, 才能, 资格",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "challenge",
+    "word": "challenge",
+    "phonetic": "/'tʃælindʒ/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "挑战, 盘问",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "clause",
+    "word": "clause",
+    "phonetic": "/klɒ:z/",
+    "partOfSpeech": "n.",
+    "meaningZh": "子句, 条款",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "compound",
+    "word": "compound",
+    "phonetic": "/kәm'paund/",
+    "partOfSpeech": "n. / adj. / vi. / vt.",
+    "meaningZh": "混合物, 复合词, 化合物, 院子",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "conflict",
+    "word": "conflict",
+    "phonetic": "/'kɒnflikt/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "战斗, 冲突, 矛盾, 争执",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "consult",
+    "word": "consult",
+    "phonetic": "/kәn'sʌlt/",
+    "partOfSpeech": "vi. / vt.",
+    "meaningZh": "商讨, 商量, 协商, 会诊",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "contact",
+    "word": "contact",
+    "phonetic": "/'kɒntækt/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "联系, 交际, 熟人, 接触",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "decline",
+    "word": "decline",
+    "phonetic": "/di'klain/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "衰退, 跌落, 下降",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "discrete",
+    "word": "discrete",
+    "phonetic": "/dis'kri:t/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "不连续的, 离散的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "draft",
+    "word": "draft",
+    "phonetic": "/dræft. drɑ:ft/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "气流, 草稿, 汇票, 草案",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "enable",
+    "word": "enable",
+    "phonetic": "/i'neibl/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "使能够",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "energy",
+    "word": "energy",
+    "phonetic": "/'enәdʒi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "精力, 精神, 活力, 能量",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "enforce",
+    "word": "enforce",
+    "phonetic": "/in'fɒ:s/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "强迫, 执行, 坚持",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "entity",
+    "word": "entity",
+    "phonetic": "/'entiti/",
+    "partOfSpeech": "n.",
+    "meaningZh": "实体, 实存物, 存在",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "equivalent",
+    "word": "equivalent",
+    "phonetic": "/i'kwivәlәnt/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "同等物, 等价物, 相等物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "evolve",
+    "word": "evolve",
+    "phonetic": "/i'vɒlv/",
+    "partOfSpeech": "vi. / vt.",
+    "meaningZh": "进展, 进化, 展开",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "expand",
+    "word": "expand",
+    "phonetic": "/ik'spænd/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使膨胀, 详述, 扩张",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "expose",
+    "word": "expose",
+    "phonetic": "/ik'spәuz/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "使暴露, 使曝光, 揭穿, 陈列",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "external",
+    "word": "external",
+    "phonetic": "/ik'stә:nl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "外部, 外面",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "facilitate",
+    "word": "facilitate",
+    "phonetic": "/fә'siliteit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "使容易, 促进, 帮助",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
   },
   {
     "slug": "fundamental",
@@ -167,7 +3719,3375 @@
     "meaningZh": "根本的；基础的；至关重要的",
     "example": "Trust is fundamental to effective teamwork.",
     "exampleZh": "信任是有效团队合作的基础。",
-    "tags": ["academic", "description"]
+    "tags": [
+      "academic",
+      "description",
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "generate",
+    "word": "generate",
+    "phonetic": "/'dʒenәreit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "产生, 发生, 导致",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "generation",
+    "word": "generation",
+    "phonetic": "/.dʒenә'reiʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "一代, 一世, 产生",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "image",
+    "word": "image",
+    "phonetic": "/'imidʒ/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "影像, 肖像, 想象, 图像, 形象, 翻版",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "liberal",
+    "word": "liberal",
+    "phonetic": "/'libәrәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "自由主义者",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "licence",
+    "word": "licence",
+    "phonetic": "/'laisns/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "执照, 许可证, 特许",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "logic",
+    "word": "logic",
+    "phonetic": "/'lɒdʒik/",
+    "partOfSpeech": "n.",
+    "meaningZh": "逻辑, 逻辑学, 推理的方法, 推理, 逻辑性",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "margin",
+    "word": "margin",
+    "phonetic": "/'mɑ:dʒin/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "页边的空白, 边缘, 界限, 余裕, 差数, 差额, 保证金",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "medical",
+    "word": "medical",
+    "phonetic": "/'medikl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "医生, 体格检查",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "mental",
+    "word": "mental",
+    "phonetic": "/'mentl/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "心智的, 精神病的, 心理的, 颏的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "modify",
+    "word": "modify",
+    "phonetic": "/'mɒdifai/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "修正, 变更, 修饰, 缓和, 减轻",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "monitor",
+    "word": "monitor",
+    "phonetic": "/'mɒnitә/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "监督器, 级长, 监听员, 班长, 监视器, 告诫物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "network",
+    "word": "network",
+    "phonetic": "/'netwә:k/",
+    "partOfSpeech": "n.",
+    "meaningZh": "网络, 广播网, 网状物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "notion",
+    "word": "notion",
+    "phonetic": "/'nәuʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "概念, 观念, 想法, 打算, 别致的小东西",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "objective",
+    "word": "objective",
+    "phonetic": "/әb'dʒektiv/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "目的, 目标, 宗旨, 宾格, 实物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "orient",
+    "word": "orient",
+    "phonetic": "/'ɒ:riәnt/",
+    "partOfSpeech": "n. / adj. / vi. / vt.",
+    "meaningZh": "东方, 东方诸国",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "perspective",
+    "word": "perspective",
+    "phonetic": "/pә'spektiv/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "远景, 透视感, (观察问题的)视角, 透视法, 看法, 透视图",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "precise",
+    "word": "precise",
+    "phonetic": "/pri'sais/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "精确的, 严谨的, 明确的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "prime",
+    "word": "prime",
+    "phonetic": "/praim/",
+    "partOfSpeech": "n. / adj. / v.",
+    "meaningZh": "最佳部分, 初期, 全盛期",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "psychology",
+    "word": "psychology",
+    "phonetic": "/sai'kɒlәdʒi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "心理学, 心理状态",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "pursue",
+    "word": "pursue",
+    "phonetic": "/pә'sju:/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "追赶, 追踪, 追随, 追求, 实行, 继续, 从事",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "ratio",
+    "word": "ratio",
+    "phonetic": "/'reiʃәu/",
+    "partOfSpeech": "n.",
+    "meaningZh": "比, 比率",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "reject",
+    "word": "reject",
+    "phonetic": "/ri'dʒekt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "被拒之人, 被弃之物, 不合格品, 次品",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "revenue",
+    "word": "revenue",
+    "phonetic": "/'revinju:/",
+    "partOfSpeech": "n.",
+    "meaningZh": "收入, 岁入, 税收, 税务局",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "stable",
+    "word": "stable",
+    "phonetic": "/'steibl/",
+    "partOfSpeech": "n. / adj. / vt. / vi.",
+    "meaningZh": "马房, 牛棚",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "style",
+    "word": "style",
+    "phonetic": "/stail/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "风格, 时尚, 文体, 风度, 字体, 类型",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "substitute",
+    "word": "substitute",
+    "phonetic": "/'sʌbstitju:t/",
+    "partOfSpeech": "n. / vt. / vi. / adj.",
+    "meaningZh": "代理, 代理人, 代用品, 代替者, 代替物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "sustain",
+    "word": "sustain",
+    "phonetic": "/sә'stein/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "承受, 支持, 供养, 继续, 忍受, 蒙受, 证实, 准许",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "symbol",
+    "word": "symbol",
+    "phonetic": "/'simbl/",
+    "partOfSpeech": "n.",
+    "meaningZh": "符号, 象征, 代号, 信条",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "target",
+    "word": "target",
+    "phonetic": "/'tɑ:git/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "目标, 靶子, 指标",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "transit",
+    "word": "transit",
+    "phonetic": "/'trænsit/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "经过, 通行, 运输, 运输线, 转变",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "trend",
+    "word": "trend",
+    "phonetic": "/trend/",
+    "partOfSpeech": "n. / vi.",
+    "meaningZh": "趋势, 倾向, 走向",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "version",
+    "word": "version",
+    "phonetic": "/'vә:ʒәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "一种描述, 版本, 译文",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "welfare",
+    "word": "welfare",
+    "phonetic": "/'welfєә/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "福利, 安宁, 幸福, 福利事业",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "whereas",
+    "word": "whereas",
+    "phonetic": "/hwєәr'æz/",
+    "partOfSpeech": "conj.",
+    "meaningZh": "然而, 鉴于",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-5"
+    ]
+  },
+  {
+    "slug": "abstract",
+    "word": "abstract",
+    "phonetic": "/'æbstrækt/",
+    "partOfSpeech": "adj. / n. / vt.",
+    "meaningZh": "抽象的, 深奥的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "accurate",
+    "word": "accurate",
+    "phonetic": "/'ækjurәt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "正确的, 精确的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "acknowledge",
+    "word": "acknowledge",
+    "phonetic": "/әk'nɒlidʒ/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "承认, 告知收悉, 答谢, 报偿",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "aggregate",
+    "word": "aggregate",
+    "phonetic": "/'ægrigәt/",
+    "partOfSpeech": "n. / adj. / v.",
+    "meaningZh": "合计, 总计, 聚集体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "allocate",
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "分配；拨出（资源或时间）",
+    "example": "The university allocated additional funds to the research project.",
+    "exampleZh": "大学为该研究项目拨出了额外资金。",
+    "tags": [
+      "academic",
+      "resource",
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "assign",
+    "word": "assign",
+    "phonetic": "/ә'sain/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "分配, 指派, 赋值",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "attach",
+    "word": "attach",
+    "phonetic": "/ә'tætʃ/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "附上, 使依附, 使附属, 使喜爱, 系, 缚",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "author",
+    "word": "author",
+    "phonetic": "/'ɒ:θә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "作家, 作家的著作, 创始人",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "bond",
+    "word": "bond",
+    "phonetic": "/bɒnd/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "捆绑物, 结合, 债券, 契约, 粘合剂, 保证人, 键, 关栈保留",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "brief",
+    "word": "brief",
+    "phonetic": "/bri:f/",
+    "partOfSpeech": "n. / adj. / vt.",
+    "meaningZh": "摘要, 简报",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "capable",
+    "word": "capable",
+    "phonetic": "/'keipәbl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "有能力的, 能的, 能干的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "cite",
+    "word": "cite",
+    "phonetic": "/sait/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "引用, 引证, 表彰",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "cooperate",
+    "word": "cooperate",
+    "phonetic": "/kәu'ɒpәreit/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "合作, 协力, 配合",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "discriminate",
+    "word": "discriminate",
+    "phonetic": "/dis'krimineit/",
+    "partOfSpeech": "v.",
+    "meaningZh": "区别, 差别待遇",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "display",
+    "word": "display",
+    "phonetic": "/dis'plei/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "显示, 陈列, 炫耀, 显示器",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "diverse",
+    "word": "diverse",
+    "phonetic": "/dai'vә:s/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "不同的, 变化多的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "domain",
+    "word": "domain",
+    "phonetic": "/dәu'mein/",
+    "partOfSpeech": "n.",
+    "meaningZh": "领域, 领土, 产业, 范围",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "edit",
+    "word": "edit",
+    "phonetic": "/'edit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "编辑, 编校, 修订, 剪辑",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "enhance",
+    "word": "enhance",
+    "phonetic": "/ɪnˈhɑːns/",
+    "partOfSpeech": "v.",
+    "meaningZh": "提高；增强；改善",
+    "example": "Regular feedback can enhance student performance.",
+    "exampleZh": "定期反馈可以提高学生的表现。",
+    "tags": [
+      "education",
+      "change",
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "estate",
+    "word": "estate",
+    "phonetic": "/i'steit/",
+    "partOfSpeech": "n.",
+    "meaningZh": "不动产, (人生的)阶段, 阶层, 财产",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "exceed",
+    "word": "exceed",
+    "phonetic": "/ik'si:d/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "超过, 超越, 胜过",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "expertise",
+    "word": "expertise",
+    "phonetic": "/.ekspә:'ti:z/",
+    "partOfSpeech": "n.",
+    "meaningZh": "专家意见, 专门技术",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "explicit",
+    "word": "explicit",
+    "phonetic": "/ik'splisit/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "详述的, 清楚的, 直言的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "federal",
+    "word": "federal",
+    "phonetic": "/'fedәrәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "联邦的, 联合的, 同盟的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "fee",
+    "word": "fee",
+    "phonetic": "/fi:/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "费用, 小费, 封地, 所有权",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "flexible",
+    "word": "flexible",
+    "phonetic": "/'fleksәbl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "易曲的, 灵活的, 柔顺的, 能变形的, 可通融的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "furthermore",
+    "word": "furthermore",
+    "phonetic": "/'fә:ðә'mɒ:/",
+    "partOfSpeech": "adv.",
+    "meaningZh": "此外, 而且",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "gender",
+    "word": "gender",
+    "phonetic": "/'dʒendә/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "性",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "ignorant",
+    "word": "ignorant",
+    "phonetic": "/'ignәrәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "无知识的, 不知道的, 由无知产生的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "incentive",
+    "word": "incentive",
+    "phonetic": "/in'sentiv/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "动机",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "incidence",
+    "word": "incidence",
+    "phonetic": "/'insidәns/",
+    "partOfSpeech": "n.",
+    "meaningZh": "发生, 发生率, 影响, 负担者, 入射, 倾角",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "incorporate",
+    "word": "incorporate",
+    "phonetic": "/in'kɒ:pәreit/",
+    "partOfSpeech": "adj. / vt. / vi.",
+    "meaningZh": "合并的, 组成公司的, 一体化的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "index",
+    "word": "index",
+    "phonetic": "/'indeks/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "索引, 指针, 指数, 指标",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "inhibit",
+    "word": "inhibit",
+    "phonetic": "/in'hibit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "禁止, 抑制",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "initiate",
+    "word": "initiate",
+    "phonetic": "/i'niʃieit/",
+    "partOfSpeech": "n. / adj. / vt.",
+    "meaningZh": "入会, 开始",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "input",
+    "word": "input",
+    "phonetic": "/'input/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "输入, 输入电路",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "instruct",
+    "word": "instruct",
+    "phonetic": "/in'strʌkt/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "教, 教育, 命令, 通知",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "intelligent",
+    "word": "intelligent",
+    "phonetic": "/in'telidʒәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "聪明的, 智能的, 了解的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "interval",
+    "word": "interval",
+    "phonetic": "/'intәvәl/",
+    "partOfSpeech": "n.",
+    "meaningZh": "间隔, 距离, 间歇, 间隙",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "lecture",
+    "word": "lecture",
+    "phonetic": "/'lektʃә/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "演讲, 谴责, 讲稿",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "migrate",
+    "word": "migrate",
+    "phonetic": "/'maigreit/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "移动, 移往, 随季节而移居",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "minimum",
+    "word": "minimum",
+    "phonetic": "/'minimәm/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "最小的, 最低的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "ministry",
+    "word": "ministry",
+    "phonetic": "/'ministri/",
+    "partOfSpeech": "n.",
+    "meaningZh": "部, 内阁, 服务",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "motive",
+    "word": "motive",
+    "phonetic": "/'mәutiv/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "动机, 目的, 主题, 基调",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "neutral",
+    "word": "neutral",
+    "phonetic": "/'nju:trәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "中立者, 中立国, 非彩色, 空档",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "nevertheless",
+    "word": "nevertheless",
+    "phonetic": "/.nevәðә'les/",
+    "partOfSpeech": "adv. / conj.",
+    "meaningZh": "然而, 虽然如此",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "overseas",
+    "word": "overseas",
+    "phonetic": "/'әuvә'si:z/",
+    "partOfSpeech": "adj. / adv.",
+    "meaningZh": "海外的, 国外的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "precede",
+    "word": "precede",
+    "phonetic": "/.pri:'si:d/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "在...之前, 优于, 较...优先",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "presume",
+    "word": "presume",
+    "phonetic": "/pri'zu:m/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "假定, 推测, 擅自, 意味着",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "rational",
+    "word": "rational",
+    "phonetic": "/'ræʃәnl/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "理性的, 合理的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "recover",
+    "word": "recover",
+    "phonetic": "/ri'kʌvә/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "重新获得, 恢复, 复原, 拯救",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "reveal",
+    "word": "reveal",
+    "phonetic": "/ri'vi:l/",
+    "partOfSpeech": "vt. / n.",
+    "meaningZh": "露出, 显示, 透露, 揭露, 泄露, (神)启示",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "scope",
+    "word": "scope",
+    "phonetic": "/skәup/",
+    "partOfSpeech": "n.",
+    "meaningZh": "范围, 机会, 广度, 眼界, 观察仪器, 导弹射程",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "subsidy",
+    "word": "subsidy",
+    "phonetic": "/'sʌbsidi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "补助金, 津贴",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "tape",
+    "word": "tape",
+    "phonetic": "/teip/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "带子, 录音带, 磁带, 窄带, 卷尺",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "trace",
+    "word": "trace",
+    "phonetic": "/treis/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "痕迹, 踪迹, 微量, 迹线, 缰绳",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "transform",
+    "word": "transform",
+    "phonetic": "/træns'fɒ:m/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使转换, 改变, 改造, 使...变形",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "transport",
+    "word": "transport",
+    "phonetic": "/træns'pɒ:t/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "运输, 运输工具, 激动, 狂喜, 流放犯",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "underlie",
+    "word": "underlie",
+    "phonetic": "/.ʌndә'lai/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "位于...之下, 成为...的基础",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "utilize",
+    "word": "utilize",
+    "phonetic": "/'ju:tilaiz/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "利用",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-6"
+    ]
+  },
+  {
+    "slug": "adapt",
+    "word": "adapt",
+    "phonetic": "/ә'dæpt/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使适应, 改编",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "adult",
+    "word": "adult",
+    "phonetic": "/'ædʌlt/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "成人, 成虫",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "advocate",
+    "word": "advocate",
+    "phonetic": "/'ædvәkeit/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "提倡者, 拥护者",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "aid",
+    "word": "aid",
+    "phonetic": "/eid/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "帮助, 外援, 助手",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "channel",
+    "word": "channel",
+    "phonetic": "/'tʃænәl/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "海峡, 航道, 频道",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "chemical",
+    "word": "chemical",
+    "phonetic": "/'kemikl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "化学药品",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "classic",
+    "word": "classic",
+    "phonetic": "/'klæsik/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "古典作品, 杰作, 大艺术家",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "comprehensive",
+    "word": "comprehensive",
+    "phonetic": "/ˌkɒmprɪˈhensɪv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "全面的；综合的",
+    "example": "The report offers a comprehensive review of climate policy.",
+    "exampleZh": "该报告对气候政策进行了全面回顾。",
+    "tags": [
+      "reading",
+      "academic",
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "comprise",
+    "word": "comprise",
+    "phonetic": "/kәm'praiz/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "包含, 构成",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "confirm",
+    "word": "confirm",
+    "phonetic": "/kәn'fә:m/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "证实, 确定, 批准, 使巩固",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "contrary",
+    "word": "contrary",
+    "phonetic": "/'kɒntrәri/",
+    "partOfSpeech": "adj. / n. / adv.",
+    "meaningZh": "相反的, 矛盾的, 对立的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "convert",
+    "word": "convert",
+    "phonetic": "/kәn'vә:t/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "皈依者, 改变宗教信仰者",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "couple",
+    "word": "couple",
+    "phonetic": "/'kʌpl/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "对, 夫妇, 数个",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "decade",
+    "word": "decade",
+    "phonetic": "/'dekeid/",
+    "partOfSpeech": "n.",
+    "meaningZh": "十年, 十",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "definite",
+    "word": "definite",
+    "phonetic": "/'definit/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "明确的, 一定的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "deny",
+    "word": "deny",
+    "phonetic": "/di'nai/",
+    "partOfSpeech": "v.",
+    "meaningZh": "否认, 拒绝",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "differentiate",
+    "word": "differentiate",
+    "phonetic": "/.difә'renʃieit/",
+    "partOfSpeech": "v.",
+    "meaningZh": "区别, 区分",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "dispose",
+    "word": "dispose",
+    "phonetic": "/dis'pәuz/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "处理, 排列, 布置",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "dynamic",
+    "word": "dynamic",
+    "phonetic": "/dai'næmik/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "动态的, 有活力的, 有力的, 动力的, 不断变化的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "eliminate",
+    "word": "eliminate",
+    "phonetic": "/i'limineit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "除去, 排除, 剔除, 消除",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "empirical",
+    "word": "empirical",
+    "phonetic": "/ɪmˈpɪrɪkəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "以观察或实验为依据的；实证的",
+    "example": "The theory is supported by empirical evidence.",
+    "exampleZh": "该理论得到了实证证据的支持。",
+    "tags": [
+      "research",
+      "academic",
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "equip",
+    "word": "equip",
+    "phonetic": "/i'kwip/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "装备, 配备",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "extract",
+    "word": "extract",
+    "phonetic": "/ik'strækt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "榨出物, 精汁, 摘录, 选段",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "file",
+    "word": "file",
+    "phonetic": "/fail/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "档案, 公文箱, 文件夹, 文件, 卷宗, 锉刀",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "finite",
+    "word": "finite",
+    "phonetic": "/'fainait/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "有限的, 有穷的, 限定的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "foundation",
+    "word": "foundation",
+    "phonetic": "/faun'deiʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "基础, 根据, 建立",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "globe",
+    "word": "globe",
+    "phonetic": "/glәub/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "球, 球状物, 地球仪, 天体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "grade",
+    "word": "grade",
+    "phonetic": "/greid/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "等级, 年级, 阶段, 成绩, 程度, 坡度, 斜坡",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "guarantee",
+    "word": "guarantee",
+    "phonetic": "/.gærәn'ti:/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "担保, 抵押品, 保证书",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "hierarchy",
+    "word": "hierarchy",
+    "phonetic": "/'haiәrɑ:ki/",
+    "partOfSpeech": "n.",
+    "meaningZh": "等级制度, 僧侣统治, 等级体系",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "identical",
+    "word": "identical",
+    "phonetic": "/ai'dentikәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "同一的, 恒等的, 完全相同的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "ideology",
+    "word": "ideology",
+    "phonetic": "/.aidi'ɒlәdʒi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "思想体系, 意识形态, 观念学, 空论",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "infer",
+    "word": "infer",
+    "phonetic": "/in'fә:/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "推论出, 推断",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "innovate",
+    "word": "innovate",
+    "phonetic": "/'inәuveit/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "改革, 创新",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "insert",
+    "word": "insert",
+    "phonetic": "/in'sә:t/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "插入物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "intervene",
+    "word": "intervene",
+    "phonetic": "/.intә'vi:n/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "插入, 调停, 干涉",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "isolate",
+    "word": "isolate",
+    "phonetic": "/'aisәleit/",
+    "partOfSpeech": "vt. / n.",
+    "meaningZh": "使隔离, 使孤立, 使绝缘",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "media",
+    "word": "media",
+    "phonetic": "/'mi:diә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "媒体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "mode",
+    "word": "mode",
+    "phonetic": "/mәud/",
+    "partOfSpeech": "n.",
+    "meaningZh": "模态, 调式, 样式, 文体, 状态, 方式, 风尚",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "paradigm",
+    "word": "paradigm",
+    "phonetic": "/'pærәdaim/",
+    "partOfSpeech": "n.",
+    "meaningZh": "范例, 式样, 词形变化表, 纵聚合关系语言项",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "phenomenon",
+    "word": "phenomenon",
+    "phonetic": "/fi'nɒminәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "现象, 迹象, 表现, 奇迹, 奇才",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "priority",
+    "word": "priority",
+    "phonetic": "/prai'ɒriti/",
+    "partOfSpeech": "n.",
+    "meaningZh": "优先权, 优先",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "prohibit",
+    "word": "prohibit",
+    "phonetic": "/prә'hibit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "禁止, 阻止",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "publication",
+    "word": "publication",
+    "phonetic": "/.pʌbli'keiʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "出版物, 出版, 公布",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "quote",
+    "word": "quote",
+    "phonetic": "/kwәut/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "引用",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "release",
+    "word": "release",
+    "phonetic": "/ri'li:s/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "释放, 发泄, 豁免, 发行, 释放证书",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "reverse",
+    "word": "reverse",
+    "phonetic": "/ri'vә:s/",
+    "partOfSpeech": "n. / adj. / vt. / vi.",
+    "meaningZh": "相反, 背面, 倒退, 挫折, 失败",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "simulate",
+    "word": "simulate",
+    "phonetic": "/'simjuleit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "模拟, 假装, 模仿",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "sole",
+    "word": "sole",
+    "phonetic": "/sәul/",
+    "partOfSpeech": "n. / adj. / vt.",
+    "meaningZh": "脚掌, 鞋底, 底部",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "somewhat",
+    "word": "somewhat",
+    "phonetic": "/'sʌmhwɒt/",
+    "partOfSpeech": "n. / adv.",
+    "meaningZh": "某物, 几分",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "submit",
+    "word": "submit",
+    "phonetic": "/sәb'mit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使服从, 使受到, 委托, 提交, 认为",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "successor",
+    "word": "successor",
+    "phonetic": "/sәk'sesә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "继承者, 接任者",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "survive",
+    "word": "survive",
+    "phonetic": "/sә'vaiv/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "比...活得长, 生存, 生还, 幸免于",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "thesis",
+    "word": "thesis",
+    "phonetic": "/'θi:sis/",
+    "partOfSpeech": "n.",
+    "meaningZh": "论题, 论文",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "topic",
+    "word": "topic",
+    "phonetic": "/'tɒpik/",
+    "partOfSpeech": "n.",
+    "meaningZh": "主题, 论题, 话题",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "transmit",
+    "word": "transmit",
+    "phonetic": "/træns'mit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "传输, 传染, 传达, 遗传, 发射, 传播",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "ultimate",
+    "word": "ultimate",
+    "phonetic": "/'ʌltimit/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "终极, 根本, 顶点, 基本原则",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "unique",
+    "word": "unique",
+    "phonetic": "/ju:'ni:k/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "独一无二的, 独特的, 稀罕的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "visible",
+    "word": "visible",
+    "phonetic": "/'vizәbl/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "看得见的, 明显的, 显然的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "voluntary",
+    "word": "voluntary",
+    "phonetic": "/'vɒlәntәri/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "自动的, 自愿的, 故意的, 志愿的, 自发的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-7"
+    ]
+  },
+  {
+    "slug": "abandon",
+    "word": "abandon",
+    "phonetic": "/ә'bændәn/",
+    "partOfSpeech": "vt. / n.",
+    "meaningZh": "放弃, 抛弃, 遗弃, 使屈从, 沉溺, 放纵",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "accompany",
+    "word": "accompany",
+    "phonetic": "/ә'kʌmpәni/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "陪伴, 伴随, 补充, 为...伴奏",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "accumulate",
+    "word": "accumulate",
+    "phonetic": "/ә'kju:mjuleit/",
+    "partOfSpeech": "v.",
+    "meaningZh": "积聚, 堆积",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "ambiguous",
+    "word": "ambiguous",
+    "phonetic": "/æmˈbɪɡjuəs/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "含糊不清的；有歧义的",
+    "example": "The wording of the survey question was ambiguous.",
+    "exampleZh": "这道调查题的措辞存在歧义。",
+    "tags": [
+      "academic",
+      "description",
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "append",
+    "word": "append",
+    "phonetic": "/ә'pend/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "附加, 增补, 盖章",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "appreciate",
+    "word": "appreciate",
+    "phonetic": "/ә'pri:ʃieit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "赏识, 鉴别, 为...而感激, 领会, 欣赏",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "arbitrary",
+    "word": "arbitrary",
+    "phonetic": "/'ɑ:bitrәri/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "任意的, 武断的, 专治的, 霸道的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "automate",
+    "word": "automate",
+    "phonetic": "/'ɔ:tәmeit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "vi. (使)自动化",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "bias",
+    "word": "bias",
+    "phonetic": "/'baiәs/",
+    "partOfSpeech": "n. / adj. / adv. / vt.",
+    "meaningZh": "偏见, 斜纹",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "chart",
+    "word": "chart",
+    "phonetic": "/tʃɑ:t/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "图表, 海图",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "clarify",
+    "word": "clarify",
+    "phonetic": "/'klærifai/",
+    "partOfSpeech": "vi. / vt.",
+    "meaningZh": "澄清, 阐明",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "commodity",
+    "word": "commodity",
+    "phonetic": "/kә'mɒditi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "农产品, 商品, 有用的物品",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "complement",
+    "word": "complement",
+    "phonetic": "/'kɒmplimәnt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "补足物, 补语, 补数",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "conform",
+    "word": "conform",
+    "phonetic": "/kәn'fɒ:m/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使一致, 使遵守, 使符合",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "contemporary",
+    "word": "contemporary",
+    "phonetic": "/kәn'tempәrәri/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "同时代的人",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "contradict",
+    "word": "contradict",
+    "phonetic": "/.kɒntrә'dikt/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "反驳, 与...抵触, 与...矛盾",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "crucial",
+    "word": "crucial",
+    "phonetic": "/'kru:ʃәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "决定性的, 重要的, 严厉的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "currency",
+    "word": "currency",
+    "phonetic": "/'kʌrәnsi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "货币, 通货, 流通, 通用",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "denote",
+    "word": "denote",
+    "phonetic": "/di'nәut/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "指示, 表示",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "detect",
+    "word": "detect",
+    "phonetic": "/di'tekt/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "发现, 察觉, 探测",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "deviate",
+    "word": "deviate",
+    "phonetic": "/'di:vieit/",
+    "partOfSpeech": "vi. / vt. / adj. / n.",
+    "meaningZh": "脱离, 偏离",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "displace",
+    "word": "displace",
+    "phonetic": "/dis'pleis/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "移置, 替换, 转移",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "drama",
+    "word": "drama",
+    "phonetic": "/'drɑ:mә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "戏剧, 戏剧艺术",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "eventual",
+    "word": "eventual",
+    "phonetic": "/i'ventʃuәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "最后的, 终于的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "exhibit",
+    "word": "exhibit",
+    "phonetic": "/ig'zibit/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "显示, 显现, 展览品, 陈列品, 展览",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "exploit",
+    "word": "exploit",
+    "phonetic": "/'eksplɒit/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "功绩, 勋绩",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "fluctuate",
+    "word": "fluctuate",
+    "phonetic": "/ˈflʌktʃueɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "波动；起伏不定",
+    "example": "Energy prices fluctuate in response to global demand.",
+    "exampleZh": "能源价格会随全球需求而波动。",
+    "tags": [
+      "data",
+      "economics",
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "guideline",
+    "word": "guideline",
+    "phonetic": "/'gaidlain/",
+    "partOfSpeech": "n.",
+    "meaningZh": "指导路线, 方针, 指标",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "highlight",
+    "word": "highlight",
+    "phonetic": "/'hailait/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "加亮区, 精彩场面",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "implicit",
+    "word": "implicit",
+    "phonetic": "/im'plisit/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "暗示的, 含蓄的, 固有的, 绝对的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "induce",
+    "word": "induce",
+    "phonetic": "/in'dju:s/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "引诱, 招致, 归纳出, 感应",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "inevitable",
+    "word": "inevitable",
+    "phonetic": "/in'evitәbl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "不可避免的, 必然的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "infrastructure",
+    "word": "infrastructure",
+    "phonetic": "/'infrәstrʌktʃә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "基础结构, 基础设施",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "inspect",
+    "word": "inspect",
+    "phonetic": "/in'spekt/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "检查, 检阅, 检验",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "intense",
+    "word": "intense",
+    "phonetic": "/in'tens/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "非常的, 强烈的, 紧张的, 热情的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "manipulate",
+    "word": "manipulate",
+    "phonetic": "/mә'nipjuleit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "操纵, 利用, 操作, 巧妙地处理, 假造",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "minimise",
+    "word": "minimise",
+    "phonetic": "/ˈmɪnɪmaɪz/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "使减到最少/最小, 使降到最低限度, 使缩到最小, 极度轻视",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "nuclear",
+    "word": "nuclear",
+    "phonetic": "/'nju:kliә/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "核子的, 原子能的, 核的, 中心的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "offset",
+    "word": "offset",
+    "phonetic": "/'ɒ:fset/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "抵消, 把...并列, 旁系, 支管, 用胶印法印",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "paragraph",
+    "word": "paragraph",
+    "phonetic": "/'pærәgrɑ:f/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "段落, 短评",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "plus",
+    "word": "plus",
+    "phonetic": "/plʌs/",
+    "partOfSpeech": "prep. / adj. / n.",
+    "meaningZh": "加上, 加, 外加",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "practitioner",
+    "word": "practitioner",
+    "phonetic": "/præk'tiʃәnә/",
+    "partOfSpeech": "n.",
+    "meaningZh": "从业者, 开业者",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "predominant",
+    "word": "predominant",
+    "phonetic": "/pri'dɒminәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "占主导地位的, 卓越的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "prospect",
+    "word": "prospect",
+    "phonetic": "/'prɒspekt/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "景色, 展望",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "radical",
+    "word": "radical",
+    "phonetic": "/'rædikl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "激进分子, 词根, 基础, 根式, 根",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "random",
+    "word": "random",
+    "phonetic": "/'rændәm/",
+    "partOfSpeech": "n. / adj. / adv.",
+    "meaningZh": "随意, 随机",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "reinforce",
+    "word": "reinforce",
+    "phonetic": "/.ri:in'fɒ:s/",
+    "partOfSpeech": "vt. / vi. / n.",
+    "meaningZh": "加强, 增援, 补充",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "restore",
+    "word": "restore",
+    "phonetic": "/ri'stɒ:/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "回复, 恢复, 归还, 修补, 修复",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "revise",
+    "word": "revise",
+    "phonetic": "/ri'vaiz/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "校订, 修正, 改样",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "schedule",
+    "word": "schedule",
+    "phonetic": "/'skedʒuәl/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "时间表, 一览表, 计划表, 议事日程",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "tense",
+    "word": "tense",
+    "phonetic": "/tens/",
+    "partOfSpeech": "adj. / v. / n.",
+    "meaningZh": "紧张的, 拉紧的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "terminate",
+    "word": "terminate",
+    "phonetic": "/'tә:mineit/",
+    "partOfSpeech": "adj. / vi. / vt.",
+    "meaningZh": "有结尾的, (可)结束的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "theme",
+    "word": "theme",
+    "phonetic": "/θi:m/",
+    "partOfSpeech": "n.",
+    "meaningZh": "主题, 话题, 题目",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "thereby",
+    "word": "thereby",
+    "phonetic": "/'ðєәbai/",
+    "partOfSpeech": "adv.",
+    "meaningZh": "因此",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "uniform",
+    "word": "uniform",
+    "phonetic": "/'ju:nifɒ:m/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "制服",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "vehicle",
+    "word": "vehicle",
+    "phonetic": "/'vi:ikl/",
+    "partOfSpeech": "n.",
+    "meaningZh": "交通工具, 车辆, 传播媒介",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "via",
+    "word": "via",
+    "phonetic": "/vaiә/",
+    "partOfSpeech": "prep.",
+    "meaningZh": "经由, 经过, 通过",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "virtual",
+    "word": "virtual",
+    "phonetic": "/'vә:tʃuәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "实际上起作用的, 虚的, 实质的, 有效的, 事实上生效的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "visual",
+    "word": "visual",
+    "phonetic": "/'viʒuәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "视觉的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "widespread",
+    "word": "widespread",
+    "phonetic": "/'waidspred/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "充分伸展的, 广布的, 普及的, 流传广的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-8"
+    ]
+  },
+  {
+    "slug": "accommodate",
+    "word": "accommodate",
+    "phonetic": "/ә'kɒmәdeit/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "使适应, 调和, 通融, 容纳, 向...提供",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "analogy",
+    "word": "analogy",
+    "phonetic": "/ә'nælәdʒi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "相似, 类似",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "anticipate",
+    "word": "anticipate",
+    "phonetic": "/æn'tisipeit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "预期, 占先, 加速, 提前使用",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "assure",
+    "word": "assure",
+    "phonetic": "/ә'ʃuә/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "保证, 使确信, 弄清楚, 担保",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "attain",
+    "word": "attain",
+    "phonetic": "/ә'tein/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "达到, 获得",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "behalf",
+    "word": "behalf",
+    "phonetic": "/bi'hɑ:f/",
+    "partOfSpeech": "n.",
+    "meaningZh": "利益, 方面",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "bulk",
+    "word": "bulk",
+    "phonetic": "/bʌlk/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "大小, 体积, 大块, 大多数",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "cease",
+    "word": "cease",
+    "phonetic": "/si:s/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "停止",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "coherent",
+    "word": "coherent",
+    "phonetic": "/kəʊˈhɪərənt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "连贯的；条理清楚的",
+    "example": "A good essay presents a coherent argument from beginning to end.",
+    "exampleZh": "一篇好文章会从头到尾呈现连贯的论点。",
+    "tags": [
+      "writing",
+      "academic",
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "coincide",
+    "word": "coincide",
+    "phonetic": "/.kәuin'said/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "一致, 符合",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "commence",
+    "word": "commence",
+    "phonetic": "/kә'mens/",
+    "partOfSpeech": "v.",
+    "meaningZh": "(使)开始, 得学位",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "compatible",
+    "word": "compatible",
+    "phonetic": "/kәm'pætәbl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "能共处的, 可并立的, 适合的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "concurrent",
+    "word": "concurrent",
+    "phonetic": "/kәn'kʌrәnt/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "同时发生的事件",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "confine",
+    "word": "confine",
+    "phonetic": "/kәn'fain/",
+    "partOfSpeech": "vt. / vi. / n.",
+    "meaningZh": "限制, 使不外出, 禁闭",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "controversy",
+    "word": "controversy",
+    "phonetic": "/'kɒntrәvә:si/",
+    "partOfSpeech": "n.",
+    "meaningZh": "论争, 辩论, 论战, 争论",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "converse",
+    "word": "converse",
+    "phonetic": "/kәn'vә:s/",
+    "partOfSpeech": "n. / adj. / vi.",
+    "meaningZh": "相反的事物, 倒, 逆向",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "device",
+    "word": "device",
+    "phonetic": "/di'vais/",
+    "partOfSpeech": "n.",
+    "meaningZh": "装置, 设计, 策略, 发明物, 设备",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "devote",
+    "word": "devote",
+    "phonetic": "/di'vәut/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "投入于, 献身",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "diminish",
+    "word": "diminish",
+    "phonetic": "/dɪˈmɪnɪʃ/",
+    "partOfSpeech": "v.",
+    "meaningZh": "减少；削弱",
+    "example": "The benefits diminish when the treatment is stopped.",
+    "exampleZh": "停止治疗后，其益处会减弱。",
+    "tags": [
+      "change",
+      "academic",
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "distort",
+    "word": "distort",
+    "phonetic": "/dis'tɒ:t/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "扭曲, 歪曲",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "duration",
+    "word": "duration",
+    "phonetic": "/dju'reiʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "持续时间, 持续",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "erode",
+    "word": "erode",
+    "phonetic": "/i'rәud/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "腐蚀, 侵蚀",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "ethic",
+    "word": "ethic",
+    "phonetic": "/'eθik/",
+    "partOfSpeech": "n.",
+    "meaningZh": "道德规范, 伦理",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "format",
+    "word": "format",
+    "phonetic": "/'fɒ:mæt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "开本, 版式, 形式, 格式",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "found",
+    "word": "found",
+    "phonetic": "/faund/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "建立, 创立, 铸造",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
   },
   {
     "slug": "inherent",
@@ -177,7 +7097,1000 @@
     "meaningZh": "内在的；固有的",
     "example": "Every method has inherent limitations.",
     "exampleZh": "每种方法都有其固有的局限性。",
-    "tags": ["research", "description"]
+    "tags": [
+      "research",
+      "description",
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "insight",
+    "word": "insight",
+    "phonetic": "/'insait/",
+    "partOfSpeech": "n.",
+    "meaningZh": "察看, 洞察力, 见识",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "integral",
+    "word": "integral",
+    "phonetic": "/'intigrәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "整体, 积分, 整数",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "intermediate",
+    "word": "intermediate",
+    "phonetic": "/.intә'mi:diәt/",
+    "partOfSpeech": "n. / adj. / vi.",
+    "meaningZh": "中间物, 调停者, 中级",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "manual",
+    "word": "manual",
+    "phonetic": "/'mænjuәl/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "手册, 指南",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "mature",
+    "word": "mature",
+    "phonetic": "/mә'tjuә/",
+    "partOfSpeech": "adj. / vt. / vi.",
+    "meaningZh": "成熟的, 到期的, 充分考虑的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "mediate",
+    "word": "mediate",
+    "phonetic": "/'mi:dieit/",
+    "partOfSpeech": "adj. / vt. / vi.",
+    "meaningZh": "居间的, 间接的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "medium",
+    "word": "medium",
+    "phonetic": "/'mi:diәm/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "媒体, 方法, 媒介",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "military",
+    "word": "military",
+    "phonetic": "/'militәri/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "军队",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "minimal",
+    "word": "minimal",
+    "phonetic": "/'miniml/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "最小的, 极微的, 最小限度的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "mutual",
+    "word": "mutual",
+    "phonetic": "/'mju:tʃuәl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "相互的, 共有的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "norm",
+    "word": "norm",
+    "phonetic": "/nɒ:m/",
+    "partOfSpeech": "n.",
+    "meaningZh": "基准, 模范, 标准, 准则, 平均数",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "overlap",
+    "word": "overlap",
+    "phonetic": "/.әuvә'læp/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "重叠, 重复, 部分的同时发生",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "passive",
+    "word": "passive",
+    "phonetic": "/'pæsiv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "消极的, 被动的, 冷漠的, 顺从的, 无源的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "portion",
+    "word": "portion",
+    "phonetic": "/'pɒ:ʃәn/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "部分, 一份, 命运, 嫁妆",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "preliminary",
+    "word": "preliminary",
+    "phonetic": "/pri'liminәri/",
+    "partOfSpeech": "n. / adj.",
+    "meaningZh": "初步做法, 初步措施, 预试, 预选赛",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "protocol",
+    "word": "protocol",
+    "phonetic": "/'prәutәkɒl/",
+    "partOfSpeech": "n. / v.",
+    "meaningZh": "草案, 礼仪, 协议",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "qualitative",
+    "word": "qualitative",
+    "phonetic": "/'kwɒlitәtiv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "性质的, 质的, 定性的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "refine",
+    "word": "refine",
+    "phonetic": "/ri'fain/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "精炼, 净化, 使优雅, 使精炼",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "relax",
+    "word": "relax",
+    "phonetic": "/ri'læks/",
+    "partOfSpeech": "vi. / vt.",
+    "meaningZh": "放松, 松懈, 松弛, 变从容, 休息, 休养",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "restrain",
+    "word": "restrain",
+    "phonetic": "/ri'strein/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "抑制, 阻止, 束缚",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "revolution",
+    "word": "revolution",
+    "phonetic": "/.revә'lu:ʃәn/",
+    "partOfSpeech": "n.",
+    "meaningZh": "革命, 大变革, 旋转, 转数, 循环",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "rigid",
+    "word": "rigid",
+    "phonetic": "/'ridʒid/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "坚硬的, 刚性的, 严格的, 精密的, 刻板的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "route",
+    "word": "route",
+    "phonetic": "/ru:t/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "路径, 途径, 路线",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "scenario",
+    "word": "scenario",
+    "phonetic": "/si'nɑ:riәu/",
+    "partOfSpeech": "n.",
+    "meaningZh": "剧本提纲, 情节, 剧本, 方案, 事态",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "sphere",
+    "word": "sphere",
+    "phonetic": "/sfiә/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "球, 球面, 球体, 天体, 地球仪, 范围",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "subordinate",
+    "word": "subordinate",
+    "phonetic": "/sә'bɒ:dnit/",
+    "partOfSpeech": "n. / adj. / vt.",
+    "meaningZh": "属下, 附属物",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "supplement",
+    "word": "supplement",
+    "phonetic": "/'sʌplimәnt/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "补充物, 增刊, 补充, 补遗, 补编, 附录, 补角",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "suspend",
+    "word": "suspend",
+    "phonetic": "/sә'spend/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "悬, 吊, 使悬浮, 暂停, 中止, 推迟",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "team",
+    "word": "team",
+    "phonetic": "/ti:m/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "队, 组",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "temporary",
+    "word": "temporary",
+    "phonetic": "/'tempәrәri/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "暂时的, 临时的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "trigger",
+    "word": "trigger",
+    "phonetic": "/'trigә/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "触发器, 扳机",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "unify",
+    "word": "unify",
+    "phonetic": "/'ju:nifai/",
+    "partOfSpeech": "v.",
+    "meaningZh": "统一, 使成一体",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "violate",
+    "word": "violate",
+    "phonetic": "/'vaiәleit/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "违犯, 亵渎, 违反, 侵犯, 妨碍",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "vision",
+    "word": "vision",
+    "phonetic": "/'viʒәn/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "视觉, 眼光, 视力, 幻想",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-9"
+    ]
+  },
+  {
+    "slug": "adjacent",
+    "word": "adjacent",
+    "phonetic": "/ә'dʒeisәnt/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "毗连的, 邻近的, 连接的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "albeit",
+    "word": "albeit",
+    "phonetic": "/ɔ:l'bi:it/",
+    "partOfSpeech": "conj.",
+    "meaningZh": "尽管, 虽然",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "assemble",
+    "word": "assemble",
+    "phonetic": "/ә'sembl/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "集合, 收集, 装配",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "collapse",
+    "word": "collapse",
+    "phonetic": "/kә'læps/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "崩溃, 倒塌, 虚脱",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "colleague",
+    "word": "colleague",
+    "phonetic": "/'kɒli:g/",
+    "partOfSpeech": "n.",
+    "meaningZh": "同事, 同僚",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "compile",
+    "word": "compile",
+    "phonetic": "/kәm'pail/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "编译, 编辑, 编纂, 收集",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "conceive",
+    "word": "conceive",
+    "phonetic": "/kәn'si:v/",
+    "partOfSpeech": "vt. / vi.",
+    "meaningZh": "构思, 认为",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "convince",
+    "word": "convince",
+    "phonetic": "/kәn'vins/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "说服, 使相信",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "depress",
+    "word": "depress",
+    "phonetic": "/di'pres/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "使沮丧, 压低, 降低, 使萧条",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "encounter",
+    "word": "encounter",
+    "phonetic": "/in'kauntә/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "相会, 相遇, 遭遇",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "enormous",
+    "word": "enormous",
+    "phonetic": "/i'nɒ:mәs/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "巨大的, 庞大的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "forthcoming",
+    "word": "forthcoming",
+    "phonetic": "/'fɒ:θ'kʌmɑŋ/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "即将来临的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "incline",
+    "word": "incline",
+    "phonetic": "/in'klain/",
+    "partOfSpeech": "n. / vt. / vi.",
+    "meaningZh": "倾斜, 斜坡, 斜面",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "integrity",
+    "word": "integrity",
+    "phonetic": "/in'tegriti/",
+    "partOfSpeech": "n.",
+    "meaningZh": "正直, 廉正, 完整",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "intrinsic",
+    "word": "intrinsic",
+    "phonetic": "/in'trinsik/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "本质的, 原有的, 真正的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "invoke",
+    "word": "invoke",
+    "phonetic": "/in'vәuk/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "祈求, 恳求, 实行, 援引, 引起",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "levy",
+    "word": "levy",
+    "phonetic": "/'levi/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "税款, 所征的人数, 征收",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "likewise",
+    "word": "likewise",
+    "phonetic": "/'laikwaiz/",
+    "partOfSpeech": "adv.",
+    "meaningZh": "同样地, 也",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "nonetheless",
+    "word": "nonetheless",
+    "phonetic": "/,nʌnðә'les/",
+    "partOfSpeech": "conj. / adv.",
+    "meaningZh": "然而, 尽管, 不过",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "notwithstanding",
+    "word": "notwithstanding",
+    "phonetic": "/.nɒtwiθ'stændiŋ/",
+    "partOfSpeech": "adv. / prep. / conj.",
+    "meaningZh": "虽然, 尽管",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "odd",
+    "word": "odd",
+    "phonetic": "/ɒd/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "奇数的, 古怪的, 剩余的, 零散的, 各种各样的, 少量的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "ongoing",
+    "word": "ongoing",
+    "phonetic": "/'ɒngәuiŋ/",
+    "partOfSpeech": "adj. / n.",
+    "meaningZh": "前进的, 进行的, 不间断的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "panel",
+    "word": "panel",
+    "phonetic": "/'pænl/",
+    "partOfSpeech": "n. / vt.",
+    "meaningZh": "嵌板, 仪表板, 专题讨论小组, 全体陪审员",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "persist",
+    "word": "persist",
+    "phonetic": "/pә'sist/",
+    "partOfSpeech": "vi.",
+    "meaningZh": "坚持, 固执, 持续, 坚称",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "pose",
+    "word": "pose",
+    "phonetic": "/pәuz/",
+    "partOfSpeech": "n. / vi. / vt.",
+    "meaningZh": "姿势, 姿态, 装模作样, 伪装",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "reluctance",
+    "word": "reluctance",
+    "phonetic": "/ri'lʌktәns/",
+    "partOfSpeech": "n.",
+    "meaningZh": "不情愿, 勉强",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "so-called",
+    "word": "so-called",
+    "phonetic": "/ˌsoʊ ˈkɔːld/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "所谓的, 号称的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "straightforward",
+    "word": "straightforward",
+    "phonetic": "/streit'fɒ:wәd/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "笔直的, 率直的, 明确的, 简单的, 直接的",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "undergo",
+    "word": "undergo",
+    "phonetic": "/.ʌndә'gәu/",
+    "partOfSpeech": "vt.",
+    "meaningZh": "遭受, 经历, 忍受",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "whereby",
+    "word": "whereby",
+    "phonetic": "/(h)weә'bai/",
+    "partOfSpeech": "adv.",
+    "meaningZh": "靠什么, 如何, 为何, 靠那个, 因此, 由此",
+    "example": "",
+    "exampleZh": "",
+    "tags": [
+      "pte",
+      "awl",
+      "awl-10"
+    ]
+  },
+  {
+    "slug": "compelling",
+    "word": "compelling",
+    "phonetic": "/kəmˈpelɪŋ/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "令人信服的；引人注目的",
+    "example": "The researchers provided compelling evidence for their conclusion.",
+    "exampleZh": "研究人员为其结论提供了令人信服的证据。",
+    "tags": [
+      "argument",
+      "academic"
+    ]
+  },
+  {
+    "slug": "consecutive",
+    "word": "consecutive",
+    "phonetic": "/kənˈsekjətɪv/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "连续的；相继的",
+    "example": "Enrollment increased for three consecutive years.",
+    "exampleZh": "入学人数连续三年增长。",
+    "tags": [
+      "data",
+      "academic"
+    ]
+  },
+  {
+    "slug": "controversial",
+    "word": "controversial",
+    "phonetic": "/ˌkɒntrəˈvɜːʃəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "有争议的",
+    "example": "The proposed policy remains highly controversial.",
+    "exampleZh": "这项拟议政策仍然极具争议。",
+    "tags": [
+      "argument",
+      "society"
+    ]
+  },
+  {
+    "slug": "deteriorate",
+    "word": "deteriorate",
+    "phonetic": "/dɪˈtɪəriəreɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "恶化；退化",
+    "example": "Air quality may deteriorate during periods of extreme heat.",
+    "exampleZh": "在极端高温期间，空气质量可能恶化。",
+    "tags": [
+      "environment",
+      "change"
+    ]
+  },
+  {
+    "slug": "discrepancy",
+    "word": "discrepancy",
+    "phonetic": "/dɪˈskrepənsi/",
+    "partOfSpeech": "n.",
+    "meaningZh": "差异；不一致",
+    "example": "There was a discrepancy between the two sets of results.",
+    "exampleZh": "两组结果之间存在差异。",
+    "tags": [
+      "data",
+      "research"
+    ]
+  },
+  {
+    "slug": "exacerbate",
+    "word": "exacerbate",
+    "phonetic": "/ɪɡˈzæsəbeɪt/",
+    "partOfSpeech": "v.",
+    "meaningZh": "使恶化；加剧",
+    "example": "A shortage of housing may exacerbate social inequality.",
+    "exampleZh": "住房短缺可能加剧社会不平等。",
+    "tags": [
+      "society",
+      "change"
+    ]
+  },
+  {
+    "slug": "feasible",
+    "word": "feasible",
+    "phonetic": "/ˈfiːzəbəl/",
+    "partOfSpeech": "adj.",
+    "meaningZh": "可行的；行得通的",
+    "example": "The committee will determine whether the proposal is feasible.",
+    "exampleZh": "委员会将判断该提案是否可行。",
+    "tags": [
+      "decision",
+      "academic"
+    ]
   },
   {
     "slug": "innovative",
@@ -187,7 +8100,10 @@
     "meaningZh": "创新的；革新的",
     "example": "The city adopted an innovative approach to waste management.",
     "exampleZh": "该城市采用了创新的废物管理方法。",
-    "tags": ["technology", "society"]
+    "tags": [
+      "technology",
+      "society"
+    ]
   },
   {
     "slug": "negligible",
@@ -197,7 +8113,10 @@
     "meaningZh": "微不足道的；可忽略不计的",
     "example": "The difference in cost was negligible.",
     "exampleZh": "成本上的差异微不足道。",
-    "tags": ["data", "description"]
+    "tags": [
+      "data",
+      "description"
+    ]
   },
   {
     "slug": "prevalent",
@@ -207,7 +8126,10 @@
     "meaningZh": "流行的；普遍存在的",
     "example": "Remote work has become increasingly prevalent.",
     "exampleZh": "远程办公变得越来越普遍。",
-    "tags": ["society", "trend"]
+    "tags": [
+      "society",
+      "trend"
+    ]
   },
   {
     "slug": "profound",
@@ -217,7 +8139,10 @@
     "meaningZh": "深远的；深刻的",
     "example": "Digital technology has had a profound impact on communication.",
     "exampleZh": "数字技术对沟通产生了深远影响。",
-    "tags": ["technology", "impact"]
+    "tags": [
+      "technology",
+      "impact"
+    ]
   },
   {
     "slug": "rigorous",
@@ -227,7 +8152,10 @@
     "meaningZh": "严谨的；严格的",
     "example": "The experiment followed a rigorous scientific procedure.",
     "exampleZh": "该实验遵循了严谨的科学流程。",
-    "tags": ["research", "academic"]
+    "tags": [
+      "research",
+      "academic"
+    ]
   },
   {
     "slug": "substantial",
@@ -237,7 +8165,10 @@
     "meaningZh": "大量的；重大的；实质性的",
     "example": "The program produced a substantial improvement in literacy rates.",
     "exampleZh": "该项目使识字率得到显著提高。",
-    "tags": ["data", "impact"]
+    "tags": [
+      "data",
+      "impact"
+    ]
   },
   {
     "slug": "sustainable",
@@ -247,7 +8178,10 @@
     "meaningZh": "可持续的；能长期维持的",
     "example": "Cities need sustainable transport systems.",
     "exampleZh": "城市需要可持续的交通系统。",
-    "tags": ["environment", "society"]
+    "tags": [
+      "environment",
+      "society"
+    ]
   },
   {
     "slug": "undermine",
@@ -257,6 +8191,9 @@
     "meaningZh": "逐渐削弱；损害",
     "example": "Misinformation can undermine public trust in science.",
     "exampleZh": "错误信息可能削弱公众对科学的信任。",
-    "tags": ["society", "impact"]
+    "tags": [
+      "society",
+      "impact"
+    ]
   }
 ]

@@ -9,7 +9,7 @@ import {
 } from './larkCli.js';
 import type { Logger } from './logger.js';
 import { formatDueAt } from './time.js';
-import type { ReviewResult } from './types.js';
+import type { Delivery, ReviewResult } from './types.js';
 
 interface CardValue {
   action: 'review' | 'next';
@@ -56,7 +56,7 @@ export class PteBot {
       if (!scheduled) {
         await this.channel.sendText(
           chatId,
-          '上一张学习卡片还没回答。完成“认识 / 不认识”后，我才会开始下一次 5 分钟倒计时。',
+          `上一张学习卡片还没回答。完成“认识 / 不认识”后，我才会开始下一次 ${this.config.pushIntervalMinutes} 分钟倒计时；未回答时每 ${this.config.pendingReminderMinutes} 分钟提醒一次。`,
           `pending:${deliveryKey}`,
         );
       }
@@ -77,7 +77,13 @@ export class PteBot {
         return false;
       }
 
-      const messageId = await this.channel.sendCard(chatId, studyCard(item), deliveryKey);
+      const target = this.deliveryTarget(userOpenId, chatId);
+      const messageId = await this.channel.sendCard(
+        chatId,
+        studyCard(item, target.displayName),
+        deliveryKey,
+        target.identity,
+      );
       const recorded = this.database.recordDelivery({
         userOpenId,
         chatId,
@@ -110,6 +116,24 @@ export class PteBot {
     return { sent, skipped };
   }
 
+  async sendPendingReminder(
+    userOpenId: string,
+    chatId: string,
+    delivery: Delivery,
+    reminderKey: string,
+  ): Promise<void> {
+    const item = this.database.getItem(delivery.itemId);
+    const target = this.deliveryTarget(userOpenId, chatId);
+    const label = item ? `“${item.word}”` : '上一张单词卡';
+    await this.channel.sendText(
+      chatId,
+      `⏰ ${target.displayName ? `${target.displayName}，` : ''}${label}还没有回答。请在学习卡片中选择“认识 / 不认识”；回答后才会开始下一次 ${this.config.pushIntervalMinutes} 分钟倒计时。`,
+      reminderKey,
+      target.identity,
+    );
+    this.logger.info('已发送待回答提醒', { userOpenId, item: item?.word, chatId });
+  }
+
   private async handleMessage(message: LarkMessageEvent): Promise<void> {
     if (message.senderType !== 'user' || !this.isAllowed(message.senderId)) return;
 
@@ -129,7 +153,7 @@ export class PteBot {
       this.database.subscribe(message.senderId, message.chatId);
       await this.channel.sendText(
         message.chatId,
-        `订阅成功。每次回答后，我会等待 ${this.config.pushIntervalMinutes} 分钟再发下一张；未回答时不会继续推送。回复“停止”可随时暂停。`,
+        `订阅成功。每次回答后，我会等待 ${this.config.pushIntervalMinutes} 分钟再发下一张；未回答时不会继续推送，并每 ${this.config.pendingReminderMinutes} 分钟提醒一次。回复“停止”可随时暂停。`,
         `subscribe:${message.messageId}`,
       );
       await this.sendStudyItem(message.senderId, message.chatId, `start-card:${message.messageId}`);
@@ -176,7 +200,12 @@ export class PteBot {
     }
 
     const delivery = this.database.getDelivery(event.messageId);
-    if (!delivery || delivery.userOpenId !== event.operatorId || delivery.itemId !== Number(value.item_id)) {
+    if (
+      !delivery
+      || delivery.dismissedAt !== undefined
+      || delivery.userOpenId !== event.operatorId
+      || delivery.itemId !== Number(value.item_id)
+    ) {
       this.logger.warn('忽略不属于当前用户的卡片操作', {
         messageId: event.messageId,
         userOpenId: event.operatorId,
@@ -201,6 +230,7 @@ export class PteBot {
         result: outcome.result,
         dueText: formatDueAt(outcome.dueAt, this.config.timezone),
         autoPushMinutes: this.config.pushIntervalMinutes,
+        learnerName: this.database.getSubscriber(delivery.userOpenId)?.displayName,
       }));
       this.logger.info('已记录复习', {
         item: item.word,
@@ -220,6 +250,7 @@ export class PteBot {
           result: progress.lastResult,
           dueText: formatDueAt(progress.dueAt, this.config.timezone),
           showNextButton: false,
+          learnerName: this.database.getSubscriber(delivery.userOpenId)?.displayName,
         }));
       }
     }
@@ -227,6 +258,20 @@ export class PteBot {
 
   private isAllowed(openId: string): boolean {
     return this.config.allowedOpenIds.size === 0 || this.config.allowedOpenIds.has(openId);
+  }
+
+  private deliveryTarget(userOpenId: string, chatId: string): {
+    displayName: string;
+    identity: 'bot' | 'user';
+  } {
+    const subscriber = this.database.getSubscriber(userOpenId);
+    if (!subscriber || subscriber.chatId !== chatId) {
+      return { displayName: '', identity: 'bot' };
+    }
+    return {
+      displayName: subscriber.displayName,
+      identity: subscriber.messageIdentity,
+    };
   }
 }
 

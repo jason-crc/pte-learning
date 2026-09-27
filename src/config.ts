@@ -5,6 +5,7 @@ export interface AppConfig {
   larkCliBin: string;
   larkCliProfile?: string;
   pushIntervalMinutes: number;
+  pendingReminderMinutes: number;
   timezone: string;
   allowedOpenIds: Set<string>;
   knownIntervalsDays: number[];
@@ -44,6 +45,11 @@ export function loadConfig(): AppConfig {
     throw new Error('PUSH_INTERVAL_MINUTES 必须是正整数');
   }
 
+  const pendingReminderMinutes = Number(process.env.PENDING_REMINDER_MINUTES ?? '30');
+  if (!Number.isInteger(pendingReminderMinutes) || pendingReminderMinutes <= 0) {
+    throw new Error('PENDING_REMINDER_MINUTES 必须是正整数');
+  }
+
   const unknownRetryMinutes = Number(process.env.UNKNOWN_RETRY_MINUTES ?? '20');
   if (!Number.isFinite(unknownRetryMinutes) || unknownRetryMinutes <= 0) {
     throw new Error('UNKNOWN_RETRY_MINUTES 必须是正数');
@@ -58,6 +64,7 @@ export function loadConfig(): AppConfig {
     larkCliBin: process.env.LARK_CLI_BIN?.trim() || 'lark-cli',
     larkCliProfile: process.env.LARK_CLI_PROFILE?.trim() || undefined,
     pushIntervalMinutes,
+    pendingReminderMinutes,
     timezone: timezone(process.env.TIMEZONE),
     allowedOpenIds: new Set(csv(process.env.ALLOWED_OPEN_IDS, '')),
     knownIntervalsDays: positiveNumbers(process.env.KNOWN_INTERVALS_DAYS, '1,3,7,14,30,60'),

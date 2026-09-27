@@ -3,6 +3,7 @@ import { dirname } from 'node:path';
 import Database from 'better-sqlite3';
 import type {
   Delivery,
+  MessageIdentity,
   Progress,
   ReviewOutcome,
   ReviewResult,
@@ -60,15 +61,49 @@ export class LearningDatabase {
     });
   }
 
-  subscribe(userOpenId: string, chatId: string, now = Date.now()): void {
-    this.db.prepare(`
-      INSERT INTO subscribers (user_open_id, chat_id, enabled, created_at, updated_at)
-      VALUES (?, ?, 1, ?, ?)
-      ON CONFLICT(user_open_id) DO UPDATE SET
-        chat_id = excluded.chat_id,
-        enabled = 1,
-        updated_at = excluded.updated_at
-    `).run(userOpenId, chatId, now, now);
+  subscribe(
+    userOpenId: string,
+    chatId: string,
+    now = Date.now(),
+    options: { displayName?: string; messageIdentity?: MessageIdentity } = {},
+  ): void {
+    this.transaction(() => {
+      const current = this.db.prepare(`
+        SELECT chat_id, display_name, message_identity
+        FROM subscribers WHERE user_open_id = ?
+      `).get(userOpenId) as Row | undefined;
+
+      if (current && String(current.chat_id) !== chatId) {
+        this.db.prepare(`
+          UPDATE deliveries
+          SET dismissed_at = ?
+          WHERE user_open_id = ?
+            AND dismissed_at IS NULL
+            AND NOT EXISTS (
+              SELECT 1
+              FROM reviews r
+              WHERE r.user_open_id = deliveries.user_open_id
+                AND r.item_id = deliveries.item_id
+                AND r.message_id = deliveries.message_id
+            )
+        `).run(now, userOpenId);
+      }
+
+      const displayName = options.displayName ?? String(current?.display_name ?? '');
+      const messageIdentity = options.messageIdentity ?? String(current?.message_identity ?? 'bot');
+      this.db.prepare(`
+        INSERT INTO subscribers (
+          user_open_id, chat_id, display_name, message_identity, enabled, created_at, updated_at
+        )
+        VALUES (?, ?, ?, ?, 1, ?, ?)
+        ON CONFLICT(user_open_id) DO UPDATE SET
+          chat_id = excluded.chat_id,
+          display_name = excluded.display_name,
+          message_identity = excluded.message_identity,
+          enabled = 1,
+          updated_at = excluded.updated_at
+      `).run(userOpenId, chatId, displayName, messageIdentity, now, now);
+    });
   }
 
   unsubscribe(userOpenId: string, now = Date.now()): boolean {
@@ -81,10 +116,18 @@ export class LearningDatabase {
 
   listActiveSubscribers(): Subscriber[] {
     const rows = this.db.prepare(`
-      SELECT user_open_id, chat_id, enabled, created_at, updated_at
+      SELECT user_open_id, chat_id, display_name, message_identity, enabled, created_at, updated_at
       FROM subscribers WHERE enabled = 1 ORDER BY created_at
     `).all() as Row[];
     return rows.map(mapSubscriber);
+  }
+
+  getSubscriber(userOpenId: string): Subscriber | undefined {
+    const row = this.db.prepare(`
+      SELECT user_open_id, chat_id, display_name, message_identity, enabled, created_at, updated_at
+      FROM subscribers WHERE user_open_id = ?
+    `).get(userOpenId) as Row | undefined;
+    return row ? mapSubscriber(row) : undefined;
   }
 
   getItem(id: number): StudyItem | undefined {
@@ -142,10 +185,16 @@ export class LearningDatabase {
   }
 
   hasPendingDelivery(userOpenId: string): boolean {
-    return Boolean(this.db.prepare(`
-      SELECT 1
+    return this.getPendingDelivery(userOpenId) !== undefined;
+  }
+
+  getPendingDelivery(userOpenId: string): Delivery | undefined {
+    const row = this.db.prepare(`
+      SELECT d.user_open_id, d.chat_id, d.item_id, d.message_id,
+             d.delivery_key, d.created_at, d.dismissed_at
       FROM deliveries d
       WHERE d.user_open_id = ?
+        AND d.dismissed_at IS NULL
         AND NOT EXISTS (
           SELECT 1
           FROM reviews r
@@ -153,8 +202,10 @@ export class LearningDatabase {
             AND r.item_id = d.item_id
             AND r.message_id = d.message_id
         )
+      ORDER BY d.created_at DESC
       LIMIT 1
-    `).get(userOpenId));
+    `).get(userOpenId) as Row | undefined;
+    return row ? mapDelivery(row) : undefined;
   }
 
   nextAutomaticPushAt(userOpenId: string, intervalMinutes: number): number | undefined {
@@ -184,18 +235,10 @@ export class LearningDatabase {
 
   getDelivery(messageId: string): Delivery | undefined {
     const row = this.db.prepare(`
-      SELECT user_open_id, chat_id, item_id, message_id, delivery_key, created_at
+      SELECT user_open_id, chat_id, item_id, message_id, delivery_key, created_at, dismissed_at
       FROM deliveries WHERE message_id = ?
     `).get(messageId) as Row | undefined;
-    if (!row) return undefined;
-    return {
-      userOpenId: String(row.user_open_id),
-      chatId: String(row.chat_id),
-      itemId: Number(row.item_id),
-      messageId: String(row.message_id),
-      deliveryKey: String(row.delivery_key),
-      createdAt: Number(row.created_at),
-    };
+    return row ? mapDelivery(row) : undefined;
   }
 
   getProgress(userOpenId: string, itemId: number): Progress | undefined {
@@ -330,6 +373,8 @@ export class LearningDatabase {
       CREATE TABLE IF NOT EXISTS subscribers (
         user_open_id TEXT PRIMARY KEY,
         chat_id TEXT NOT NULL,
+        display_name TEXT NOT NULL DEFAULT '',
+        message_identity TEXT NOT NULL DEFAULT 'bot',
         enabled INTEGER NOT NULL DEFAULT 1,
         created_at INTEGER NOT NULL,
         updated_at INTEGER NOT NULL
@@ -364,7 +409,8 @@ export class LearningDatabase {
         item_id INTEGER NOT NULL REFERENCES items(id),
         message_id TEXT NOT NULL UNIQUE,
         delivery_key TEXT NOT NULL UNIQUE,
-        created_at INTEGER NOT NULL
+        created_at INTEGER NOT NULL,
+        dismissed_at INTEGER
       );
 
       CREATE TABLE IF NOT EXISTS dispatches (
@@ -375,6 +421,23 @@ export class LearningDatabase {
       CREATE INDEX IF NOT EXISTS idx_progress_due ON progress(user_open_id, due_at);
       CREATE INDEX IF NOT EXISTS idx_reviews_user_time ON reviews(user_open_id, reviewed_at);
       CREATE INDEX IF NOT EXISTS idx_deliveries_user_item ON deliveries(user_open_id, item_id);
+    `);
+
+    const subscriberColumns = this.db.prepare('PRAGMA table_info(subscribers)').all() as Row[];
+    if (!subscriberColumns.some((column) => String(column.name) === 'display_name')) {
+      this.db.exec("ALTER TABLE subscribers ADD COLUMN display_name TEXT NOT NULL DEFAULT ''");
+    }
+    if (!subscriberColumns.some((column) => String(column.name) === 'message_identity')) {
+      this.db.exec("ALTER TABLE subscribers ADD COLUMN message_identity TEXT NOT NULL DEFAULT 'bot'");
+    }
+
+    const deliveryColumns = this.db.prepare('PRAGMA table_info(deliveries)').all() as Row[];
+    if (!deliveryColumns.some((column) => String(column.name) === 'dismissed_at')) {
+      this.db.exec('ALTER TABLE deliveries ADD COLUMN dismissed_at INTEGER');
+    }
+    this.db.exec(`
+      CREATE INDEX IF NOT EXISTS idx_deliveries_pending
+      ON deliveries(user_open_id, dismissed_at, created_at);
     `);
   }
 }
@@ -398,6 +461,8 @@ function mapSubscriber(row: Row): Subscriber {
   return {
     userOpenId: String(row.user_open_id),
     chatId: String(row.chat_id),
+    displayName: String(row.display_name ?? ''),
+    messageIdentity: String(row.message_identity ?? 'bot') as MessageIdentity,
     enabled: Boolean(row.enabled),
     createdAt: Number(row.created_at),
     updatedAt: Number(row.updated_at),
@@ -414,5 +479,17 @@ function mapProgress(row: Row): Progress {
     lastReviewedAt: Number(row.last_reviewed_at),
     knownCount: Number(row.known_count),
     unknownCount: Number(row.unknown_count),
+  };
+}
+
+function mapDelivery(row: Row): Delivery {
+  return {
+    userOpenId: String(row.user_open_id),
+    chatId: String(row.chat_id),
+    itemId: Number(row.item_id),
+    messageId: String(row.message_id),
+    deliveryKey: String(row.delivery_key),
+    createdAt: Number(row.created_at),
+    dismissedAt: row.dismissed_at == null ? undefined : Number(row.dismissed_at),
   };
 }

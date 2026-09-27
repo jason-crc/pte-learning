@@ -114,6 +114,7 @@ describe('LearningDatabase', () => {
       messageId: 'om_pending', deliveryKey: 'scheduled:first', createdAt: subscribedAt,
     });
     assert.equal(database.hasPendingDelivery('ou_user'), true);
+    assert.equal(database.getPendingDelivery('ou_user')?.messageId, 'om_pending');
 
     const reviewedAt = subscribedAt + 12 * 60 * 1000;
     database.recordReview({
@@ -122,5 +123,58 @@ describe('LearningDatabase', () => {
     });
     assert.equal(database.hasPendingDelivery('ou_user'), false);
     assert.equal(database.nextAutomaticPushAt('ou_user', 5), reviewedAt + 5 * 60 * 1000);
+  });
+
+  it('切换投递会话时放弃旧会话里的待回答卡片', () => {
+    const now = Date.UTC(2026, 7, 19, 2, 0, 0);
+    database.subscribe('ou_user', 'oc_private', now);
+    const item = database.nextItem('ou_user', now)!;
+    database.recordDelivery({
+      userOpenId: 'ou_user', chatId: 'oc_private', itemId: item.id,
+      messageId: 'om_old_chat', deliveryKey: 'scheduled:old', createdAt: now,
+    });
+
+    database.subscribe('ou_user', 'oc_group', now + 1);
+
+    assert.equal(database.hasPendingDelivery('ou_user'), false);
+    assert.equal(database.getDelivery('om_old_chat')?.dismissedAt, now + 1);
+    assert.equal(database.listActiveSubscribers()[0]?.chatId, 'oc_group');
+  });
+
+  it('同一群里的两名学习者分别维护待答卡和认识状态', () => {
+    const now = Date.UTC(2026, 7, 19, 2, 0, 0);
+    database.subscribe('ou_alice', 'oc_group', now, { displayName: 'Alice' });
+    database.subscribe('ou_bob', 'oc_group', now, { displayName: 'Bob' });
+
+    const aliceItem = database.nextItem('ou_alice', now)!;
+    const bobItem = database.nextItem('ou_bob', now)!;
+    assert.equal(aliceItem.word, 'allocate');
+    assert.equal(bobItem.word, 'allocate');
+
+    database.recordDelivery({
+      userOpenId: 'ou_alice', chatId: 'oc_group', itemId: aliceItem.id,
+      messageId: 'om_alice', deliveryKey: 'scheduled:alice', createdAt: now,
+    });
+    database.recordDelivery({
+      userOpenId: 'ou_bob', chatId: 'oc_group', itemId: bobItem.id,
+      messageId: 'om_bob', deliveryKey: 'scheduled:bob', createdAt: now,
+    });
+
+    database.recordReview({
+      userOpenId: 'ou_alice', itemId: aliceItem.id, messageId: 'om_alice', result: 'known',
+      reviewedAt: now + 1, knownIntervalsDays: [1, 3], unknownRetryMinutes: 20,
+    });
+
+    assert.equal(database.hasPendingDelivery('ou_alice'), false);
+    assert.equal(database.hasPendingDelivery('ou_bob'), true);
+    assert.equal(database.getProgress('ou_alice', aliceItem.id)?.lastResult, 'known');
+    assert.equal(database.getProgress('ou_bob', bobItem.id), undefined);
+    assert.deepEqual(
+      database.listActiveSubscribers().map(({ displayName, chatId }) => ({ displayName, chatId })),
+      [
+        { displayName: 'Alice', chatId: 'oc_group' },
+        { displayName: 'Bob', chatId: 'oc_group' },
+      ],
+    );
   });
 });

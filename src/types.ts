@@ -1,4 +1,5 @@
 export type ReviewResult = 'known' | 'unknown';
+export type MessageIdentity = 'bot' | 'user';
 
 export interface WordSeed {
   slug: string;
@@ -19,6 +20,8 @@ export interface StudyItem extends WordSeed {
 export interface Subscriber {
   userOpenId: string;
   chatId: string;
+  displayName: string;
+  messageIdentity: MessageIdentity;
   enabled: boolean;
   createdAt: number;
   updatedAt: number;
@@ -49,6 +52,7 @@ export interface Delivery {
   messageId: string;
   deliveryKey: string;
   createdAt: number;
+  dismissedAt?: number;
 }
 
 export interface UserStats {

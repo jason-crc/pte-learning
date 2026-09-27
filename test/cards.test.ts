@@ -18,7 +18,10 @@ const item: StudyItem = {
 
 describe('Feishu cards', () => {
   it('学习卡包含认识与不认识两个回传动作', () => {
-    const serialized = JSON.stringify(studyCard(item));
+    const serialized = JSON.stringify(studyCard(item, '陈睿'));
+    assert.match(serialized, /"schema":"2.0"/);
+    assert.match(serialized, /陈睿/);
+    assert.match(serialized, /"type":"callback"/);
     assert.match(serialized, /"result":"known"/);
     assert.match(serialized, /"result":"unknown"/);
     assert.match(serialized, /"item_id":"7"/);
@@ -30,7 +33,10 @@ describe('Feishu cards', () => {
       item,
       result: 'unknown',
       dueText: '8月19日 10:20',
+      learnerName: '陈睿',
     }));
+    assert.match(serialized, /"schema":"2.0"/);
+    assert.match(serialized, /陈睿/);
     assert.match(serialized, /连贯的/);
     assert.match(serialized, /The argument is coherent/);
     assert.match(serialized, /再来一个/);

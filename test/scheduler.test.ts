@@ -11,13 +11,19 @@ const word: WordSeed = {
   example: '', exampleZh: '', tags: [],
 };
 
+const secondWord: WordSeed = {
+  slug: 'coherent', word: 'coherent', phonetic: '', partOfSpeech: 'adj.', meaningZh: '连贯的',
+  example: '', exampleZh: '', tags: [],
+};
+
 describe('PushScheduler', () => {
-  it('回答后等待五分钟，未回答时不再推送', async () => {
+  it('未回答时每三十分钟提醒，回答后等待五分钟再推送', async () => {
     const database = new LearningDatabase(':memory:');
-    database.seedWords([word]);
+    database.seedWords([word, secondWord]);
     const subscribedAt = Date.parse('2026-08-19T04:20:00.000Z');
     database.subscribe('ou_user', 'oc_chat', subscribedAt);
     let calls = 0;
+    let reminders = 0;
     const bot = {
       async sendStudyItem(user: string, chat: string, key: string): Promise<boolean> {
         calls += 1;
@@ -27,13 +33,17 @@ describe('PushScheduler', () => {
           itemId: database.nextItem(user)!.id,
           messageId: `om_${calls}`,
           deliveryKey: key,
-          createdAt: subscribedAt + calls,
+          createdAt: calls === 1 ? subscribedAt + 5 * 60 * 1000 : subscribedAt + 75 * 60 * 1000,
         });
         return true;
+      },
+      async sendPendingReminder(): Promise<void> {
+        reminders += 1;
       },
     };
     const config = {
       pushIntervalMinutes: 5,
+      pendingReminderMinutes: 30,
       timezone: 'Asia/Shanghai',
     } as AppConfig;
     const scheduler = new PushScheduler(config, database, bot, new Logger('error'));
@@ -44,13 +54,21 @@ describe('PushScheduler', () => {
     await scheduler.tick(new Date(subscribedAt + 5 * 60 * 1000));
     assert.equal(calls, 1);
 
-    await scheduler.tick(new Date(subscribedAt + 20 * 60 * 1000));
+    await scheduler.tick(new Date(subscribedAt + 35 * 60 * 1000 - 1));
     assert.equal(calls, 1);
+    assert.equal(reminders, 0);
 
-    const reviewedAt = subscribedAt + 20 * 60 * 1000;
+    await scheduler.tick(new Date(subscribedAt + 35 * 60 * 1000));
+    assert.equal(reminders, 1);
+    await scheduler.tick(new Date(subscribedAt + 35 * 60 * 1000));
+    assert.equal(reminders, 1);
+    await scheduler.tick(new Date(subscribedAt + 65 * 60 * 1000));
+    assert.equal(reminders, 2);
+
+    const reviewedAt = subscribedAt + 70 * 60 * 1000;
     database.recordReview({
       userOpenId: 'ou_user', itemId: database.getDelivery('om_1')!.itemId,
-      messageId: 'om_1', result: 'unknown', reviewedAt,
+      messageId: 'om_1', result: 'known', reviewedAt,
       knownIntervalsDays: [1, 3], unknownRetryMinutes: 20,
     });
     await scheduler.tick(new Date(reviewedAt + 5 * 60 * 1000 - 1));
@@ -60,6 +78,7 @@ describe('PushScheduler', () => {
     assert.equal(calls, 2);
     await scheduler.tick(new Date(reviewedAt + 5 * 60 * 1000));
     assert.equal(calls, 2);
+    assert.equal(reminders, 2);
     database.close();
   });
 });

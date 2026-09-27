@@ -2,50 +2,78 @@ import type { ReviewResult, StudyItem, UserStats } from './types.js';
 
 type Card = Record<string, unknown>;
 
-export function studyCard(item: StudyItem): Card {
+export function studyCard(item: StudyItem, learnerName?: string): Card {
   const details = [item.phonetic, item.partOfSpeech].filter(Boolean).join('  ·  ');
   return {
-    config: { wide_screen_mode: true, update_multi: false },
+    schema: '2.0',
+    config: {
+      update_multi: true,
+      width_mode: 'default',
+      summary: { content: `${learnerName ? `${learnerName} · ` : ''}${item.word}` },
+    },
     header: {
       template: 'blue',
       title: { tag: 'plain_text', content: 'PTE 碎片学习 · 单词' },
+      ...(learnerName
+        ? { subtitle: { tag: 'plain_text', content: `本卡学员：${learnerName}` } }
+        : {}),
+      icon: { tag: 'standard_icon', token: 'todo_colorful' },
+      text_tag_list: [
+        { tag: 'text_tag', text: { tag: 'plain_text', content: '待回答' }, color: 'blue' },
+      ],
     },
-    elements: [
+    body: {
+      direction: 'vertical',
+      padding: '12px 12px 20px 12px',
+      vertical_spacing: '12px',
+      elements: [
       {
-        tag: 'div',
-        text: {
-          tag: 'lark_md',
-          content: `**${escapeMarkdown(item.word)}**${details ? `\n${escapeMarkdown(details)}` : ''}`,
-        },
+        tag: 'column_set',
+        flex_mode: 'none',
+        columns: [{
+          tag: 'column',
+          width: 'weighted',
+          weight: 1,
+          background_style: 'blue-50',
+          padding: '12px',
+          vertical_spacing: '4px',
+          elements: [
+            ...(learnerName ? [{
+              tag: 'markdown',
+              content: `<font color='grey'>给 ${escapeMarkdown(learnerName)}</font>`,
+              text_size: 'notation',
+            }] : []),
+            {
+              tag: 'markdown',
+              content: `# **${escapeMarkdown(item.word)}**${details ? `\n${escapeMarkdown(details)}` : ''}`,
+            },
+          ],
+        }],
       },
-      { tag: 'hr' },
       {
-        tag: 'div',
-        text: { tag: 'plain_text', content: '先在脑中回忆它的含义，再选择：' },
+        tag: 'markdown',
+        content: '先在脑中回忆它的含义，再选择：',
       },
       {
-        tag: 'action',
-        layout: 'bisected',
-        actions: [
-          {
-            tag: 'button',
-            type: 'primary',
-            text: { tag: 'plain_text', content: '认识' },
-            value: { action: 'review', item_id: String(item.id), result: 'known' },
-          },
-          {
-            tag: 'button',
-            type: 'danger',
-            text: { tag: 'plain_text', content: '不认识' },
-            value: { action: 'review', item_id: String(item.id), result: 'unknown' },
-          },
+        tag: 'column_set',
+        flex_mode: 'bisect',
+        horizontal_spacing: '12px',
+        columns: [
+          buttonColumn('认识', 'primary_filled', {
+            action: 'review', item_id: String(item.id), result: 'known',
+          }),
+          buttonColumn('不认识', 'default', {
+            action: 'review', item_id: String(item.id), result: 'unknown',
+          }),
         ],
       },
       {
-        tag: 'note',
-        elements: [{ tag: 'plain_text', content: '不用纠结，诚实作答才能让复习节奏更准。' }],
+        tag: 'markdown',
+        content: "<font color='grey'>不用纠结，诚实作答才能让复习节奏更准。</font>",
+        text_size: 'notation',
       },
-    ],
+      ],
+    },
   };
 }
 
@@ -55,77 +83,109 @@ export function answerCard(input: {
   dueText: string;
   showNextButton?: boolean;
   autoPushMinutes?: number;
+  learnerName?: string;
 }): Card {
   const known = input.result === 'known';
+  const color = known ? 'green' : 'orange';
+  const meaningLines = [`**释义：** ${escapeMarkdown(input.item.meaningZh)}`];
+  if (input.item.example) {
+    meaningLines.push(
+      `**例句：** ${escapeMarkdown(input.item.example)}${
+        input.item.exampleZh ? `\n${escapeMarkdown(input.item.exampleZh)}` : ''
+      }`,
+    );
+  }
+
+  const statusLines = [`**下次复习：** ${escapeMarkdown(input.dueText)}`];
+  if (input.autoPushMinutes !== undefined) {
+    statusLines.push(`已完成回答，${input.autoPushMinutes} 分钟后自动推送下一张学习卡。`);
+  }
+
   const elements: Record<string, unknown>[] = [
     {
-      tag: 'div',
-      text: {
-        tag: 'lark_md',
-        content: `**${escapeMarkdown(input.item.word)}**  ${escapeMarkdown(input.item.phonetic)}  ${escapeMarkdown(input.item.partOfSpeech)}`.trim(),
-      },
+      tag: 'column_set',
+      flex_mode: 'none',
+      columns: [{
+        tag: 'column',
+        width: 'weighted',
+        weight: 1,
+        background_style: `${color}-50`,
+        padding: '12px',
+        vertical_spacing: '4px',
+        elements: [
+          ...(input.learnerName ? [{
+            tag: 'markdown',
+            content: `<font color='grey'>${escapeMarkdown(input.learnerName)} 的学习结果</font>`,
+            text_size: 'notation',
+          }] : []),
+          {
+            tag: 'markdown',
+            content: `## **${escapeMarkdown(input.item.word)}**\n${escapeMarkdown(
+              [input.item.phonetic, input.item.partOfSpeech].filter(Boolean).join('  ·  '),
+            )}`.trim(),
+          },
+        ],
+      }],
     },
     {
-      tag: 'div',
-      text: { tag: 'lark_md', content: `**释义：** ${escapeMarkdown(input.item.meaningZh)}` },
+      tag: 'markdown',
+      content: meaningLines.join('\n\n'),
+    },
+    {
+      tag: 'column_set',
+      flex_mode: 'none',
+      columns: [{
+        tag: 'column',
+        width: 'weighted',
+        weight: 1,
+        background_style: `${color}-50`,
+        padding: '12px',
+        elements: [{
+          tag: 'markdown',
+          content: statusLines.join('\n'),
+          text_size: 'notation',
+        }],
+      }],
     },
   ];
 
-  if (input.item.example) {
+  if (input.showNextButton !== false) {
     elements.push({
-      tag: 'div',
-      text: {
-        tag: 'lark_md',
-        content: `**例句：** ${escapeMarkdown(input.item.example)}${
-          input.item.exampleZh ? `\n${escapeMarkdown(input.item.exampleZh)}` : ''
-        }`,
-      },
-    });
-  }
-
-  elements.push({
-    tag: 'note',
-    elements: [{ tag: 'plain_text', content: `下次复习：${input.dueText}` }],
-  });
-
-  if (input.autoPushMinutes !== undefined) {
-    elements.push({
-      tag: 'note',
-      elements: [{
-        tag: 'plain_text',
-        content: `已完成回答，${input.autoPushMinutes} 分钟后自动推送下一张学习卡。`,
+      tag: 'button',
+      type: 'primary_filled',
+      width: 'fill',
+      text: { tag: 'plain_text', content: '再来一个' },
+      behaviors: [{
+        type: 'callback',
+        value: {
+            action: 'next',
+            item_id: String(input.item.id),
+            result: input.result,
+        },
       }],
     });
   }
 
-  if (input.showNextButton !== false) {
-    elements.push({
-      tag: 'action',
-      actions: [
-        {
-          tag: 'button',
-          type: 'primary',
-          text: { tag: 'plain_text', content: '再来一个' },
-          value: {
-            action: 'next',
-            item_id: String(input.item.id),
-            result: input.result,
-          },
-        },
-      ],
-    });
-  }
-
   return {
-    config: { wide_screen_mode: true, update_multi: false },
+    schema: '2.0',
+    config: { update_multi: true, width_mode: 'default' },
     header: {
-      template: known ? 'green' : 'orange',
+      template: color,
       title: {
         tag: 'plain_text',
         content: known ? '答得不错，记忆已加固' : '现在认识了，很快再见一次',
       },
+      ...(input.learnerName
+        ? { subtitle: { tag: 'plain_text', content: `学员：${input.learnerName}` } }
+        : {}),
+      icon: { tag: 'standard_icon', token: 'todo_colorful' },
     },
-    elements,
+    body: {
+      direction: 'vertical',
+      padding: '12px 12px 20px 12px',
+      vertical_spacing: '12px',
+      elements,
+    },
   };
 }
 
@@ -159,4 +219,21 @@ export function statsCard(stats: UserStats): Card {
 
 function escapeMarkdown(value: string): string {
   return value.replace(/([*_`~])/g, '\\$1');
+}
+
+function buttonColumn(
+  text: string,
+  type: 'primary_filled' | 'default',
+  value: Record<string, string>,
+): Record<string, unknown> {
+  return {
+    tag: 'column',
+    elements: [{
+      tag: 'button',
+      type,
+      width: 'fill',
+      text: { tag: 'plain_text', content: text },
+      behaviors: [{ type: 'callback', value }],
+    }],
+  };
 }
